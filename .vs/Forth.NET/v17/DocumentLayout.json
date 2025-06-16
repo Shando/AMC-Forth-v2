@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|c:\\users\\simon\\documents\\forth.net_v4.5\\addons\\amc_forth\\amcforth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|solutionrelative:addons\\amc_forth\\amcforth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AMCForth.cs",
+              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\AMCForth.cs",
+              "RelativeDocumentMoniker": "addons\\amc_forth\\AMCForth.cs",
+              "ToolTip": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\AMCForth.cs",
+              "RelativeToolTip": "addons\\amc_forth\\AMCForth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T06:55:32.568Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

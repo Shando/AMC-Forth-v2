@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://bnnrg7sbu6ium"
+path="res://.godot/imported/20.png-3832ec53bc08a0548bbc3475dff86b89.image"
+
+[deps]
+
+source_file="res://Images/VT100Font/20.png"
+dest_files=["res://.godot/imported/20.png-3832ec53bc08a0548bbc3475dff86b89.image"]
+
+[params]
+

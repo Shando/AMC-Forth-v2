@@ -1,0 +1,347 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|c:\\users\\simon\\documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\duckconvertinttoreal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|solutionrelative:addons\\amc_forth\\words\\duckdb\\duckconvertinttoreal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|c:\\users\\simon\\documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\duckclosedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|solutionrelative:addons\\amc_forth\\words\\duckdb\\duckclosedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|c:\\users\\simon\\documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\duckdatecomparedollar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|solutionrelative:addons\\amc_forth\\words\\duckdb\\duckdatecomparedollar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|c:\\users\\simon\\documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\duckgetrowdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|solutionrelative:addons\\amc_forth\\words\\duckdb\\duckgetrowdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|c:\\users\\simon\\documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\duckgetrowdatadollar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|solutionrelative:addons\\amc_forth\\words\\duckdb\\duckgetrowdatadollar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|c:\\users\\simon\\documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\duckopendb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|solutionrelative:addons\\amc_forth\\words\\duckdb\\duckopendb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|c:\\users\\simon\\documents\\forth.net_v4.5\\addons\\amc_forth\\amcforth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|solutionrelative:addons\\amc_forth\\amcforth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|c:\\users\\simon\\documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\duckopendbdollar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|solutionrelative:addons\\amc_forth\\words\\duckdb\\duckopendbdollar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|c:\\users\\simon\\documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\duckrealcompare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|solutionrelative:addons\\amc_forth\\words\\duckdb\\duckrealcompare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|c:\\users\\simon\\documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\duckrealcomparedollar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|solutionrelative:addons\\amc_forth\\words\\duckdb\\duckrealcomparedollar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|c:\\users\\simon\\documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\duckrunquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|solutionrelative:addons\\amc_forth\\words\\duckdb\\duckrunquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|c:\\users\\simon\\documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\duckrunquerydollar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|solutionrelative:addons\\amc_forth\\words\\duckdb\\duckrunquerydollar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|c:\\users\\simon\\documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\ducktimecompare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|solutionrelative:addons\\amc_forth\\words\\duckdb\\ducktimecompare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|c:\\users\\simon\\documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\ducktimecomparedollar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|solutionrelative:addons\\amc_forth\\words\\duckdb\\ducktimecomparedollar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|c:\\users\\simon\\documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\ducktimestampcompare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|solutionrelative:addons\\amc_forth\\words\\duckdb\\ducktimestampcompare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|c:\\users\\simon\\documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\ducktimestampcomparedollar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|solutionrelative:addons\\amc_forth\\words\\duckdb\\ducktimestampcomparedollar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|c:\\users\\simon\\documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\duckdatecompare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|solutionrelative:addons\\amc_forth\\words\\duckdb\\duckdatecompare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|c:\\users\\simon\\documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\duckconvertrealtoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|solutionrelative:addons\\amc_forth\\words\\duckdb\\duckconvertrealtoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|c:\\users\\simon\\documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\duckdbset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|solutionrelative:addons\\amc_forth\\words\\duckdb\\duckdbset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DuckTimeStampCompareDollar.cs",
+              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\DuckTimeStampCompareDollar.cs",
+              "RelativeDocumentMoniker": "addons\\amc_forth\\words\\duckdb\\DuckTimeStampCompareDollar.cs",
+              "ToolTip": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\DuckTimeStampCompareDollar.cs",
+              "RelativeToolTip": "addons\\amc_forth\\words\\duckdb\\DuckTimeStampCompareDollar.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T22:29:12.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DuckTimeStampCompare.cs",
+              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\DuckTimeStampCompare.cs",
+              "RelativeDocumentMoniker": "addons\\amc_forth\\words\\duckdb\\DuckTimeStampCompare.cs",
+              "ToolTip": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\DuckTimeStampCompare.cs",
+              "RelativeToolTip": "addons\\amc_forth\\words\\duckdb\\DuckTimeStampCompare.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T22:29:12.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DuckTimeCompareDollar.cs",
+              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\DuckTimeCompareDollar.cs",
+              "RelativeDocumentMoniker": "addons\\amc_forth\\words\\duckdb\\DuckTimeCompareDollar.cs",
+              "ToolTip": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\DuckTimeCompareDollar.cs",
+              "RelativeToolTip": "addons\\amc_forth\\words\\duckdb\\DuckTimeCompareDollar.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T22:29:12.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DuckTimeCompare.cs",
+              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\DuckTimeCompare.cs",
+              "RelativeDocumentMoniker": "addons\\amc_forth\\words\\duckdb\\DuckTimeCompare.cs",
+              "ToolTip": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\DuckTimeCompare.cs",
+              "RelativeToolTip": "addons\\amc_forth\\words\\duckdb\\DuckTimeCompare.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T22:29:11.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DuckRunQueryDollar.cs",
+              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\DuckRunQueryDollar.cs",
+              "RelativeDocumentMoniker": "addons\\amc_forth\\words\\duckdb\\DuckRunQueryDollar.cs",
+              "ToolTip": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\DuckRunQueryDollar.cs",
+              "RelativeToolTip": "addons\\amc_forth\\words\\duckdb\\DuckRunQueryDollar.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T22:29:11.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DuckRunQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\DuckRunQuery.cs",
+              "RelativeDocumentMoniker": "addons\\amc_forth\\words\\duckdb\\DuckRunQuery.cs",
+              "ToolTip": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\DuckRunQuery.cs",
+              "RelativeToolTip": "addons\\amc_forth\\words\\duckdb\\DuckRunQuery.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T22:29:11.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DuckRealCompareDollar.cs",
+              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\DuckRealCompareDollar.cs",
+              "RelativeDocumentMoniker": "addons\\amc_forth\\words\\duckdb\\DuckRealCompareDollar.cs",
+              "ToolTip": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\DuckRealCompareDollar.cs",
+              "RelativeToolTip": "addons\\amc_forth\\words\\duckdb\\DuckRealCompareDollar.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwBYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T22:29:11.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DuckRealCompare.cs",
+              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\DuckRealCompare.cs",
+              "RelativeDocumentMoniker": "addons\\amc_forth\\words\\duckdb\\DuckRealCompare.cs",
+              "ToolTip": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\DuckRealCompare.cs",
+              "RelativeToolTip": "addons\\amc_forth\\words\\duckdb\\DuckRealCompare.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T22:29:11.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DuckOpenDBDollar.cs",
+              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\DuckOpenDBDollar.cs",
+              "RelativeDocumentMoniker": "addons\\amc_forth\\words\\duckdb\\DuckOpenDBDollar.cs",
+              "ToolTip": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\DuckOpenDBDollar.cs",
+              "RelativeToolTip": "addons\\amc_forth\\words\\duckdb\\DuckOpenDBDollar.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T22:29:11.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DuckOpenDb.cs",
+              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\DuckOpenDb.cs",
+              "RelativeDocumentMoniker": "addons\\amc_forth\\words\\duckdb\\DuckOpenDb.cs",
+              "ToolTip": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\DuckOpenDb.cs",
+              "RelativeToolTip": "addons\\amc_forth\\words\\duckdb\\DuckOpenDb.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T22:29:11.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DuckGetRowDataDollar.cs",
+              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\DuckGetRowDataDollar.cs",
+              "RelativeDocumentMoniker": "addons\\amc_forth\\words\\duckdb\\DuckGetRowDataDollar.cs",
+              "ToolTip": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\DuckGetRowDataDollar.cs",
+              "RelativeToolTip": "addons\\amc_forth\\words\\duckdb\\DuckGetRowDataDollar.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T22:29:11.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DuckGetRowData.cs",
+              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\DuckGetRowData.cs",
+              "RelativeDocumentMoniker": "addons\\amc_forth\\words\\duckdb\\DuckGetRowData.cs",
+              "ToolTip": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\DuckGetRowData.cs",
+              "RelativeToolTip": "addons\\amc_forth\\words\\duckdb\\DuckGetRowData.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T22:29:10.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DuckDateCompareDollar.cs",
+              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\DuckDateCompareDollar.cs",
+              "RelativeDocumentMoniker": "addons\\amc_forth\\words\\duckdb\\DuckDateCompareDollar.cs",
+              "ToolTip": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\DuckDateCompareDollar.cs",
+              "RelativeToolTip": "addons\\amc_forth\\words\\duckdb\\DuckDateCompareDollar.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T22:29:10.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DuckCloseDb.cs",
+              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\DuckCloseDb.cs",
+              "RelativeDocumentMoniker": "addons\\amc_forth\\words\\duckdb\\DuckCloseDb.cs",
+              "ToolTip": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\DuckCloseDb.cs",
+              "RelativeToolTip": "addons\\amc_forth\\words\\duckdb\\DuckCloseDb.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T22:29:10.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DuckConvertIntToReal.cs",
+              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\DuckConvertIntToReal.cs",
+              "RelativeDocumentMoniker": "addons\\amc_forth\\words\\duckdb\\DuckConvertIntToReal.cs",
+              "ToolTip": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\DuckConvertIntToReal.cs",
+              "RelativeToolTip": "addons\\amc_forth\\words\\duckdb\\DuckConvertIntToReal.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T22:08:28.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DuckDateCompare.cs",
+              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\DuckDateCompare.cs",
+              "RelativeDocumentMoniker": "addons\\amc_forth\\words\\duckdb\\DuckDateCompare.cs",
+              "ToolTip": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\DuckDateCompare.cs",
+              "RelativeToolTip": "addons\\amc_forth\\words\\duckdb\\DuckDateCompare.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T21:46:38.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DuckConvertRealToInt.cs",
+              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\DuckConvertRealToInt.cs",
+              "RelativeDocumentMoniker": "addons\\amc_forth\\words\\duckdb\\DuckConvertRealToInt.cs",
+              "ToolTip": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\DuckConvertRealToInt.cs",
+              "RelativeToolTip": "addons\\amc_forth\\words\\duckdb\\DuckConvertRealToInt.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T21:42:10.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DuckDbSet.cs",
+              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\DuckDbSet.cs",
+              "RelativeDocumentMoniker": "addons\\amc_forth\\words\\duckdb\\DuckDbSet.cs",
+              "ToolTip": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\duckdb\\DuckDbSet.cs",
+              "RelativeToolTip": "addons\\amc_forth\\words\\duckdb\\DuckDbSet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T21:28:03.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AMCForth.cs",
+              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\AMCForth.cs",
+              "RelativeDocumentMoniker": "addons\\amc_forth\\AMCForth.cs",
+              "ToolTip": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\AMCForth.cs",
+              "RelativeToolTip": "addons\\amc_forth\\AMCForth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T06:55:32.568Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

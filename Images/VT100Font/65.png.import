@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://cip1f7ma86jgs"
+path="res://.godot/imported/65.png-ccaeeb72cb21f1efa2e169394c15f066.image"
+
+[deps]
+
+source_file="res://Images/VT100Font/65.png"
+dest_files=["res://.godot/imported/65.png-ccaeeb72cb21f1efa2e169394c15f066.image"]
+
+[params]
+

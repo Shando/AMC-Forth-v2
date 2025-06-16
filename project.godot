@@ -1,0 +1,43 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Forth.NETv2"
+run/main_scene="res://Main2.tscn"
+config/features=PackedStringArray("4.5", "C#", "Forward Plus")
+config/icon="res://icon.svg"
+
+[autoload]
+
+Common="*res://Common.gd"
+
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/size/mode=3
+
+[dotnet]
+
+project/assembly_name="Forth.NET"
+project/solution_directory="C:\\Users\\Simon\\Documents\\forth.net"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/amc_forth/plugin.cfg", "res://addons/godot-sqlite/plugin.cfg")
+
+[rendering]
+
+reflections/sky_reflections/texture_array_reflections=false
+viewport/hdr_2d=true
+environment/screen_space_reflection/roughness_quality=0
+environment/defaults/default_clear_color=Color(0, 0, 0, 0)
+viewport/transparent_background=true

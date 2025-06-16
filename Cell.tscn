@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3 uid="uid://btebl786f7uxk"]
+
+[ext_resource type="Shader" uid="uid://b1bq1q2x6bqik" path="res://Cell.gdshader" id="1_crbni"]
+[ext_resource type="Script" uid="uid://dgfi8f8tg60jl" path="res://cell.gd" id="2_3bbri"]
+[ext_resource type="Texture2D" uid="uid://c134x53w031fo" path="res://textureButton.png" id="2_gx8a2"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_wn8d0"]
+resource_local_to_scene = true
+shader = ExtResource("1_crbni")
+shader_parameter/color = Color(0, 0, 0, 1)
+
+[node name="Cell" type="TextureButton"]
+material = SubResource("ShaderMaterial_wn8d0")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture_normal = ExtResource("2_gx8a2")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("2_3bbri")
