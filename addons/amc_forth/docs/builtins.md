@@ -492,8 +492,6 @@
 
 ### <a name="ReplaceSprite"></a>[REPLACESPRITE](ReplaceSprite.md)
 
-### <a name="ScrollBackground"></a>[SCROLLBACKGROUND](ScrollBackground.md)
-
 ### <a name="SetPixel"></a>[SETPIXEL](SetPixel.md)
 
 ### <a name="ShowSprite"></a>[SHOWSPRITE](ShowSprite.md)

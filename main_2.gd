@@ -4,8 +4,6 @@ extends Node
 @onready var cl = $PanelContainer/HBoxContainer/PanelContainer2/VBoxContainer2/CommandLine
 @onready var commands = $PanelContainer/HBoxContainer/PanelContainer2/VBoxContainer2/PanelContainer2/Commands
 @onready var drawing = $PanelContainer/HBoxContainer/PanelContainer2/VBoxContainer2/PanelContainer3/PanelContainer
-#@onready var fore = $PanelContainer/HBoxContainer/PanelContainer2/VBoxContainer2/PanelContainer3/PanelContainer/SubViewport2/Foreground
-#@onready var back = $PanelContainer/HBoxContainer/PanelContainer2/VBoxContainer2/PanelContainer3/PanelContainer/SubViewport/Background
 @onready var fore = $PanelContainer/HBoxContainer/PanelContainer2/VBoxContainer2/PanelContainer3/PanelContainer/SubViewport2/FG
 @onready var back = $PanelContainer/HBoxContainer/PanelContainer2/VBoxContainer2/PanelContainer3/PanelContainer/SubViewport/BG
 
@@ -55,7 +53,7 @@ signal ops(value: int)
 func _ready():
 	#restartForth()
 	reset()
-	#add_child(Docs.new())
+	add_child(Docs.new())
 	$DlgSave.set_filters(["*.fth ; Forth format"])
 	var allowed = ["*.4th", "*.f", "*.forth", "*.fs", "*.fth"]
 	$DlgLoad.set_filters(allowed)

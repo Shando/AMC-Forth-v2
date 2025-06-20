@@ -90,8 +90,6 @@ These use the **800px x 480px** graphics display in the UI.
 
 **REPLACESPRITE** - Replaces the sprite denoted by spriteid ('id1') with the sprite denoted by spriteid ('id2').
 
-**SCROLLBACKGROUND** - Scroll the background image by setting scroll speed in the 'x' and 'y' directions.
-
 **SETPIXEL** - Sets the pixel denoted by 'x', 'y' to the colour ('r', 'g', 'b', 'a').
 
 **SHOWSPRITE** - Show the sprite denoted by its spriteid ('id').

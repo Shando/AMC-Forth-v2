@@ -1,7 +1,5 @@
 extends Node
 
-#@onready var fg = $"../Control/PanelContainer/HBoxContainer/PanelContainer2/VBoxContainer2/PanelContainer3/PanelContainer/SubViewport2/Foreground"
-
 const SCREEN_WIDTH = 80
 const SCREEN_HEIGHT = 24
 

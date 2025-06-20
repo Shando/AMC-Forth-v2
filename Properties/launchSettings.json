@@ -7,7 +7,7 @@
     },
     "Profile 1": {
       "commandName": "Executable",
-      "executablePath": "C:\\Users\\Simon\\Downloads\\Godot_v4.5-dev4_mono_win64\\Godot_v4.5-dev4_mono_win64.exe",
+      "executablePath": "C:\\Users\\Simon\\Downloads\\Godot_v4.5-dev4_mono_win64\\Godot_v4.5-dev4_mono_win64\\Godot_v4.5-dev4_mono_win64.exe",
       "commandLineArgs": "--path \"C:\\Users\\Simon\\Documents\\forth.net_v4.5\" --verbose",
       "workingDirectory": "C:\\Users\\Simon\\Documents\\forth.net_v4.5",
       "nativeDebugging": true

@@ -1,5 +1,5 @@
 # VALUE &emsp; (Value)
-Create a dictionary entry for name, associated with value x. Example usage: <x> VALUE <name>
+Create a dictionary entry for name, associated with value x.<br/>Example usage: <x> VALUE <name>
 * ( 'name' x -- )
 * [Source Code](../words/core_ext/Value.cs)
 * Execution Tokens: 1312304802 (interpreted) and 775433890 (compiled)

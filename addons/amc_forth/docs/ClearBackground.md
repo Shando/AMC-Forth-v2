@@ -1,5 +1,5 @@
 # CLEARBACKGROUND &emsp; (ClearBackground)
-Clears the background layer. Example usage: CLEARBACKGROUND
+Clears the background layer.<br/>Example usage: CLEARBACKGROUND
 * ( -- )
 * [Source Code](../words/graphics/ClearBackground.cs)
 * Execution Tokens: 1115021036 (interpreted) and 578150124 (compiled)

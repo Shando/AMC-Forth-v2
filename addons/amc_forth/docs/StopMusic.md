@@ -1,5 +1,5 @@
 # STOPMUSIC &emsp; (StopMusic)
-Stops any music that is currently playing. Example usage: STOPMUSIC
+Stops any music that is currently playing.<br/>Example usage: STOPMUSIC
 * ( -- )
 * [Source Code](../words/sound/StopMusic.cs)
 * Execution Tokens: 1569054572 (interpreted) and 1032183660 (compiled)

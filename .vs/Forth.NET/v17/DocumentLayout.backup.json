@@ -3,64 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|c:\\users\\simon\\documents\\forth.net_v4.5\\addons\\amc_forth\\words\\shando\\within.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|solutionrelative:addons\\amc_forth\\words\\shando\\within.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|c:\\users\\simon\\documents\\forth.net_v4.5\\addons\\amc_forth\\words\\shando\\varreplacedollar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|solutionrelative:addons\\amc_forth\\words\\shando\\varreplacedollar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|c:\\users\\simon\\documents\\forth.net_v4.5\\addons\\amc_forth\\words\\shando\\varadddollar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|solutionrelative:addons\\amc_forth\\words\\shando\\varadddollar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|c:\\users\\simon\\documents\\forth.net_v4.5\\addons\\amc_forth\\words\\shando\\skip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|solutionrelative:addons\\amc_forth\\words\\shando\\skip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|c:\\users\\simon\\documents\\forth.net_v4.5\\addons\\amc_forth\\words\\shando\\setdollar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|solutionrelative:addons\\amc_forth\\words\\shando\\setdollar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|c:\\users\\simon\\documents\\forth.net_v4.5\\addons\\amc_forth\\words\\sqlite\\createtabledollar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|solutionrelative:addons\\amc_forth\\words\\sqlite\\createtabledollar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|c:\\users\\simon\\documents\\forth.net_v4.5\\addons\\amc_forth\\words\\sqlite\\getrowdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|solutionrelative:addons\\amc_forth\\words\\sqlite\\getrowdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|c:\\users\\simon\\documents\\forth.net_v4.5\\addons\\amc_forth\\words\\sqlite\\getrowdatadollar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|solutionrelative:addons\\amc_forth\\words\\sqlite\\getrowdatadollar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|c:\\users\\simon\\documents\\forth.net_v4.5\\addons\\amc_forth\\words\\shando\\adddollar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|solutionrelative:addons\\amc_forth\\words\\shando\\adddollar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|c:\\users\\simon\\documents\\forth.net_v4.5\\addons\\amc_forth\\words\\shando\\dashtrailing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|solutionrelative:addons\\amc_forth\\words\\shando\\dashtrailing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|c:\\users\\simon\\documents\\forth.net_v4.5\\addons\\amc_forth\\words\\shando\\holds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|solutionrelative:addons\\amc_forth\\words\\shando\\holds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|c:\\users\\simon\\documents\\forth.net_v4.5\\addons\\amc_forth\\words\\shando\\incdollar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|solutionrelative:addons\\amc_forth\\words\\shando\\incdollar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|c:\\users\\simon\\documents\\forth.net_v4.5\\addons\\amc_forth\\words\\shando\\replacedollar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|solutionrelative:addons\\amc_forth\\words\\shando\\replacedollar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|c:\\users\\simon\\documents\\forth.net_v4.5\\addons\\amc_forth\\words\\shando\\scan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|solutionrelative:addons\\amc_forth\\words\\shando\\scan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|c:\\users\\simon\\documents\\forth.net_v4.5\\addons\\amc_forth\\words\\shando\\search.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|solutionrelative:addons\\amc_forth\\words\\shando\\search.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|c:\\users\\simon\\documents\\forth.net_v4.5\\addons\\amc_forth\\words\\graphics\\loadbackground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D2A905-F665-4528-A6D9-034292E86EA1}|Forth.NET.csproj|solutionrelative:addons\\amc_forth\\words\\graphics\\loadbackground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,206 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Within.cs",
-              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\shando\\Within.cs",
-              "RelativeDocumentMoniker": "addons\\amc_forth\\words\\shando\\Within.cs",
-              "ToolTip": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\shando\\Within.cs",
-              "RelativeToolTip": "addons\\amc_forth\\words\\shando\\Within.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAIwBAAAACDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T02:39:10.703Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "VarReplaceDollar.cs",
-              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\shando\\VarReplaceDollar.cs",
-              "RelativeDocumentMoniker": "addons\\amc_forth\\words\\shando\\VarReplaceDollar.cs",
-              "ToolTip": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\shando\\VarReplaceDollar.cs",
-              "RelativeToolTip": "addons\\amc_forth\\words\\shando\\VarReplaceDollar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAIwA8AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T02:38:57.583Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VarAddDollar.cs",
-              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\shando\\VarAddDollar.cs",
-              "RelativeDocumentMoniker": "addons\\amc_forth\\words\\shando\\VarAddDollar.cs",
-              "ToolTip": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\shando\\VarAddDollar.cs",
-              "RelativeToolTip": "addons\\amc_forth\\words\\shando\\VarAddDollar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAIwA4AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T02:38:44.043Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Skip.cs",
-              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\shando\\Skip.cs",
-              "RelativeDocumentMoniker": "addons\\amc_forth\\words\\shando\\Skip.cs",
-              "ToolTip": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\shando\\Skip.cs",
-              "RelativeToolTip": "addons\\amc_forth\\words\\shando\\Skip.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAkwA8AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T02:38:32.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SetDollar.cs",
-              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\shando\\SetDollar.cs",
-              "RelativeDocumentMoniker": "addons\\amc_forth\\words\\shando\\SetDollar.cs",
-              "ToolTip": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\shando\\SetDollar.cs",
-              "RelativeToolTip": "addons\\amc_forth\\words\\shando\\SetDollar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T02:37:28.044Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Search.cs",
-              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\shando\\Search.cs",
-              "RelativeDocumentMoniker": "addons\\amc_forth\\words\\shando\\Search.cs",
-              "ToolTip": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\shando\\Search.cs",
-              "RelativeToolTip": "addons\\amc_forth\\words\\shando\\Search.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAkwBAAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T02:37:10.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Scan.cs",
-              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\shando\\Scan.cs",
-              "RelativeDocumentMoniker": "addons\\amc_forth\\words\\shando\\Scan.cs",
-              "ToolTip": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\shando\\Scan.cs",
-              "RelativeToolTip": "addons\\amc_forth\\words\\shando\\Scan.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAkwA8AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T02:36:56.626Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ReplaceDollar.cs",
-              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\shando\\ReplaceDollar.cs",
-              "RelativeDocumentMoniker": "addons\\amc_forth\\words\\shando\\ReplaceDollar.cs",
-              "ToolTip": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\shando\\ReplaceDollar.cs",
-              "RelativeToolTip": "addons\\amc_forth\\words\\shando\\ReplaceDollar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T02:36:40.677Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IncDollar.cs",
-              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\shando\\IncDollar.cs",
-              "RelativeDocumentMoniker": "addons\\amc_forth\\words\\shando\\IncDollar.cs",
-              "ToolTip": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\shando\\IncDollar.cs",
-              "RelativeToolTip": "addons\\amc_forth\\words\\shando\\IncDollar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T02:36:04.365Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Holds.cs",
-              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\shando\\Holds.cs",
-              "RelativeDocumentMoniker": "addons\\amc_forth\\words\\shando\\Holds.cs",
-              "ToolTip": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\shando\\Holds.cs",
-              "RelativeToolTip": "addons\\amc_forth\\words\\shando\\Holds.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T02:35:54.068Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DashTrailing.cs",
-              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\shando\\DashTrailing.cs",
-              "RelativeDocumentMoniker": "addons\\amc_forth\\words\\shando\\DashTrailing.cs",
-              "ToolTip": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\shando\\DashTrailing.cs",
-              "RelativeToolTip": "addons\\amc_forth\\words\\shando\\DashTrailing.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAkwA4AAABkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T02:35:43.5Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AddDollar.cs",
-              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\shando\\AddDollar.cs",
-              "RelativeDocumentMoniker": "addons\\amc_forth\\words\\shando\\AddDollar.cs",
-              "ToolTip": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\shando\\AddDollar.cs",
-              "RelativeToolTip": "addons\\amc_forth\\words\\shando\\AddDollar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T02:35:32.265Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GetRowDataDollar.cs",
-              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\sqlite\\GetRowDataDollar.cs",
-              "RelativeDocumentMoniker": "addons\\amc_forth\\words\\sqlite\\GetRowDataDollar.cs",
-              "ToolTip": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\sqlite\\GetRowDataDollar.cs",
-              "RelativeToolTip": "addons\\amc_forth\\words\\sqlite\\GetRowDataDollar.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAkwBMAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T02:34:52.587Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GetRowData.cs",
-              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\sqlite\\GetRowData.cs",
-              "RelativeDocumentMoniker": "addons\\amc_forth\\words\\sqlite\\GetRowData.cs",
-              "ToolTip": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\sqlite\\GetRowData.cs",
-              "RelativeToolTip": "addons\\amc_forth\\words\\sqlite\\GetRowData.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAkwBQAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T02:34:11.587Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CreateTableDollar.cs",
-              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\sqlite\\CreateTableDollar.cs",
-              "RelativeDocumentMoniker": "addons\\amc_forth\\words\\sqlite\\CreateTableDollar.cs",
-              "ToolTip": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\sqlite\\CreateTableDollar.cs",
-              "RelativeToolTip": "addons\\amc_forth\\words\\sqlite\\CreateTableDollar.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAD4vxkAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T02:33:18.974Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoadBackground.cs",
+              "DocumentMoniker": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\graphics\\LoadBackground.cs",
+              "RelativeDocumentMoniker": "addons\\amc_forth\\words\\graphics\\LoadBackground.cs",
+              "ToolTip": "C:\\Users\\Simon\\Documents\\forth.net_v4.5\\addons\\amc_forth\\words\\graphics\\LoadBackground.cs",
+              "RelativeToolTip": "addons\\amc_forth\\words\\graphics\\LoadBackground.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwB4AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T02:45:15.848Z",
+              "EditorCaption": ""
             }
           ]
         }

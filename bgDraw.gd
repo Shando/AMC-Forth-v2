@@ -7,9 +7,7 @@ var image : Image
 
 @onready var main = $"../../../../../../../.."
 @onready var spBG = $"../../spBG"
-@onready var tex = preload("res://Images/textureBackground1.png")
-@onready var spS = $"../../../SpriteWindow/Parallax2D/spScroll"
-@onready var plx = $"../../../SpriteWindow/Parallax2D"
+@onready var tex = preload("res://Images/textureBackground.png")
 
 var tex1
 var scrolledImage
@@ -33,7 +31,6 @@ func _draw():
 	if Common.bClearBackground:
 		Common.bClearBackground = false
 		spBG.texture = tex
-		spS.texture = null
 	elif Common.bLoadBackground:
 		Common.bLoadBackground = false
 		aTmp = arrLoadBG.duplicate(true)
@@ -49,9 +46,7 @@ func _draw():
 			image.load(xx.t)
 			tex1 = ImageTexture.new()
 			tex1.set_image(image)
-			spS.texture = tex1
-			spS.offset.x = xx.x
-			spS.offset.y = xx.y
+			spBG.texture = tex1
 
 func addClearBG():
 	if !Common.bStop:
@@ -63,10 +58,6 @@ func addLoadBG(texIn, x, y, aa):
 		bgOffset.x = x
 		bgOffset.y = y
 		Common.bLoadBackground = true
-
-func addScrollBG(x, y):
-	if !Common.bStop:
-		plx.set_autoscroll(Vector2(x, y))
 
 func openDb(dbName, ro):		# LEAVES DB OPEN
 	db = GDDuckDB.new()

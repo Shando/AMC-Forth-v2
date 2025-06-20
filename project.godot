@@ -32,7 +32,7 @@ project/solution_directory="C:\\Users\\Simon\\Documents\\forth.net"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/amc_forth/plugin.cfg", "res://addons/godot-sqlite/plugin.cfg")
+enabled=PackedStringArray("res://addons/amc_forth/plugin.cfg", "res://addons/parallax2d_preview/plugin.cfg")
 
 [rendering]
 

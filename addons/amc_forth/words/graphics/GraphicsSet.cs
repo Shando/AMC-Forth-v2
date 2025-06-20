@@ -28,7 +28,6 @@ namespace Forth.Graphics
         public HideSprite HideSprite;
         public ClearBackground ClearBackground;
         public LoadBackground LoadBackground;
-        public ScrollBackground ScrollBackground;
         public GetSpritePosition GetSpritePosition;
         public ReplaceSprite ReplaceSprite;
         public GetTimeMS GetTimeMS;
@@ -60,7 +59,6 @@ namespace Forth.Graphics
             HideSprite = new(_forth, Wordset);
             ClearBackground = new(_forth, Wordset);
             LoadBackground = new(_forth, Wordset);
-            ScrollBackground = new(_forth, Wordset);
             GetSpritePosition = new(_forth, Wordset);
             ReplaceSprite = new(_forth, Wordset);
             GetTimeMS = new(_forth, Wordset);
