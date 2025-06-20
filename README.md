@@ -24,23 +24,23 @@ This folder **MUST** be moved to the project's **USER DATA FOLDER** before runni
 
 It contains the following:
 
-	Backgrounds - 256x background screens (more can be added, just don't go beyond 999 in total)
-	
-	Data - This should contain your database(s)
-	
-	Images - Some basic textures for the initial Foreground & Background
-	
-	logs - Standard Godot Log Files
-	
-	shader_cache - Standard Godot Shader Cache
-	
-	Sounds - Sound and Music files. It currently contains the Sounds and Music used in Frogger (all from https://computerarcheology.com/Arcade/Frogger/)
-	
-	Sprites - 256x Sprites and 256x Shadow Sprites (in 'Shadows' folder, if you have any need to use Shadow Sprites). As with Backgrounds, more can be added, just don't go beyond 999 in total!).
-	
-	vulkan - Standard Godot Vulcan Files
+Backgrounds - 256x background screens (more can be added, just don't go beyond 999 in total)
 
-	There is also a file called **temp.fth**. This contains the last code run and will autoload next time you reload the application.
+Data - This should contain your database(s)
+
+Images - Some basic textures for the initial Foreground & Background
+
+logs - Standard Godot Log Files
+
+shader_cache - Standard Godot Shader Cache
+
+Sounds - Sound and Music files. It currently contains the Sounds and Music used in Frogger (all from https://computerarcheology.com/Arcade/Frogger/)
+
+Sprites - 256x Sprites and 256x Shadow Sprites (in 'Shadows' folder, if you have any need to use Shadow Sprites). As with Backgrounds, more can be added, just don't go beyond 999 in total!).
+
+vulkan - Standard Godot Vulkan Files
+
+There is also a file called **temp.fth**. This contains the last code run and will autoload next time you reload the application.
 
 
 ## GRAPHICS
@@ -48,69 +48,69 @@ It contains the following:
 These use the **800px x 480px** graphics display in the UI.
 
 
-	**AT-XYG** - Configure graphics display so next character displayed will appear at column 'x', row 'y' of the graphics display (origin in upper left).
+**AT-XYG** - Configure graphics display so next character displayed will appear at column 'x', row 'y' of the graphics display (origin in upper left).
 
-	**CHANGESPRITETEXTURE** - Change the texture of the sprite denoted by its spriteid ('id') to the texture 'x', where x = 000, 001 etc.
+**CHANGESPRITETEXTURE** - Change the texture of the sprite denoted by its spriteid ('id') to the texture 'x', where x = 000, 001 etc.
 
-	**CLEARBACKGROUND** - Clears the background layer.
+**CLEARBACKGROUND** - Clears the background layer.
 
-	**CLEARSCREEN** - Fills the foreground screen with colour ('r', 'g', 'b', 'a').
+**CLEARSCREEN** - Fills the foreground screen with colour ('r', 'g', 'b', 'a').
 
-	**CLEARSCREENPARTIAL** - Fills the area of the foreground screen denoted by the starting pixel ('x', 'y'), the width ('w') and the height ('h') with colour ('r', 'g', 'b', 'a').
+**CLEARSCREENPARTIAL** - Fills the area of the foreground screen denoted by the starting pixel ('x', 'y'), the width ('w') and the height ('h') with colour ('r', 'g', 'b', 'a').
 
-	**CREATESPRITEWINDOW** - Create a sub-window where sprites will be visible. 'x' and 'y' are the top left of the window, 'w' and 'h' are the width and the height.
+**CREATESPRITEWINDOW** - Create a sub-window where sprites will be visible. 'x' and 'y' are the top left of the window, 'w' and 'h' are the width and the height.
 
-	**DRAWARC** - Draws an arc of radius ('ra'), width ('w') and colour ('r', 'g', 'b', 'a') around pixel ('x', 'y'), with a start angle ('sa') and end angle ('ea'), consisting of ('p') points.
+**DRAWARC** - Draws an arc of radius ('ra'), width ('w') and colour ('r', 'g', 'b', 'a') around pixel ('x', 'y'), with a start angle ('sa') and end angle ('ea'), consisting of ('p') points.
 
-	**DRAWCIRCLE** - Draws a circle of radius ('ra'), width ('w1') and colour ('r1', 'g1', 'b1', 'a1') around pixel ('x', 'y'). This will also draw a border of width ('w2') and colour ('r2', 'g2', 'b2', 'a2').
+**DRAWCIRCLE** - Draws a circle of radius ('ra'), width ('w1') and colour ('r1', 'g1', 'b1', 'a1') around pixel ('x', 'y'). This will also draw a border of width ('w2') and colour ('r2', 'g2', 'b2', 'a2').
 
-	**DRAWLINE** - Draws a line from pixel ('x1', 'y1') to pixel ('x2', 'y2') with colour ('r', 'g', 'b', 'a') and width ('w').
+**DRAWLINE** - Draws a line from pixel ('x1', 'y1') to pixel ('x2', 'y2') with colour ('r', 'g', 'b', 'a') and width ('w').
 
-	**DRAWRECTANGLE** - Draws a rectangle starting at pixel ('x', 'y'), with width ('w1'), height ('h1'), line width ('lw') and fill colour ('r1', 'g1', 'b1', 'a1'). This also draws a second rectangle outside the first with line width ('bw'), and fill colour ('r2', 'g2', 'b2', 'a2').
+**DRAWRECTANGLE** - Draws a rectangle starting at pixel ('x', 'y'), with width ('w1'), height ('h1'), line width ('lw') and fill colour ('r1', 'g1', 'b1', 'a1'). This also draws a second rectangle outside the first with line width ('bw'), and fill colour ('r2', 'g2', 'b2', 'a2').
 
-	**DRAWSTRING** - Draws the string of characters of length ('l'), denoted by their ASCII codes, with a foreground colour ('r', 'g', 'b', 'a'), starting at the pixel location stored using **AT-XYG**. A background colour ('rb', 'gb', 'bb', 'ab') and size ('s') can also be specified.
+**DRAWSTRING** - Draws the string of characters of length ('l'), denoted by their ASCII codes, with a foreground colour ('r', 'g', 'b', 'a'), starting at the pixel location stored using **AT-XYG**. A background colour ('rb', 'gb', 'bb', 'ab') and size ('s') can also be specified.
 
-	**DRAWSTRING$** - Draws the contents of the string variable 'var$' with a foreground colour ('r', 'g', 'b', 'a'), starting at the pixel location stored using **AT-XYG**. A background colour ('rb', 'gb', 'bb', 'ab') and size ('si') can also be specified.
+**DRAWSTRING$** - Draws the contents of the string variable 'var$' with a foreground colour ('r', 'g', 'b', 'a'), starting at the pixel location stored using **AT-XYG**. A background colour ('rb', 'gb', 'bb', 'ab') and size ('si') can also be specified.
 
-	**GETPIXEL** - Gets the colour ('r', 'g', 'b', 'a') of the pixel 'x', 'y'.
+**GETPIXEL** - Gets the colour ('r', 'g', 'b', 'a') of the pixel 'x', 'y'.
 
-	**GETSPRITEPOSITION** - Gets the position ('x', 'y') of the top left pixel of the sprite denoted by 'id'.
+**GETSPRITEPOSITION** - Gets the position ('x', 'y') of the top left pixel of the sprite denoted by 'id'.
 
-	**GETTIMEMS** - Get the current System Time in milliseconds (no decimal) as a double.
+**GETTIMEMS** - Get the current System Time in milliseconds (no decimal) as a double.
 
-	**GETTIMES** - Get the current System Time in seconds (no decimal) as a double.
+**GETTIMES** - Get the current System Time in seconds (no decimal) as a double.
 
-	**HIDESPRITE** - Hide the sprite denoted by its spriteid ('id').
+**HIDESPRITE** - Hide the sprite denoted by its spriteid ('id').
 
-	**LOADBACKGROUND** - Load the background image denoted by its 'id' at position ('x', 'y').
+**LOADBACKGROUND** - Load the background image denoted by its 'id' at position ('x', 'y').
 
-	**LOADSPRITE** - Load the sprite denoted by sprite id ('id1') with texture id ('id2') and its top left at pixel ('x', 'y'). 'p' should be set to 1 for the player character, 0 for any character that can interact with the player character, -1 otherwise.
+**LOADSPRITE** - Load the sprite denoted by sprite id ('id1') with texture id ('id2') and its top left at pixel ('x', 'y'). 'p' should be set to 1 for the player character, 0 for any character that can interact with the player character, -1 otherwise.
 
-	**MOVESPRITE** - Move the sprite denoted by its spriteid ('id'). If type ('t') = 0 then move by the number of pixels in the 'x' and 'y' directions.
+**MOVESPRITE** - Move the sprite denoted by its spriteid ('id'). If type ('t') = 0 then move by the number of pixels in the 'x' and 'y' directions.
 
-	**REPLACESPRITE** - Replaces the sprite denoted by spriteid ('id1') with the sprite denoted by spriteid ('id2').
+**REPLACESPRITE** - Replaces the sprite denoted by spriteid ('id1') with the sprite denoted by spriteid ('id2').
 
-	**SCROLLBACKGROUND** - Scroll the background image by setting scroll speed in the 'x' and 'y' directions.
+**SCROLLBACKGROUND** - Scroll the background image by setting scroll speed in the 'x' and 'y' directions.
 
-	**SETPIXEL** - Sets the pixel denoted by 'x', 'y' to the colour ('r', 'g', 'b', 'a').
+**SETPIXEL** - Sets the pixel denoted by 'x', 'y' to the colour ('r', 'g', 'b', 'a').
 
-	**SHOWSPRITE** - Show the sprite denoted by its spriteid ('id').
+**SHOWSPRITE** - Show the sprite denoted by its spriteid ('id').
 
 
 ## SOUNDS
 
 
-	**PAUSEMUSIC** - Pauses any music that is currently playing.
+**PAUSEMUSIC** - Pauses any music that is currently playing.
 
-	**PLAYMUSIC** - Plays the music file denoted by 'id', at the volume denoted by 'vol' (0 - 100).
+**PLAYMUSIC** - Plays the music file denoted by 'id', at the volume denoted by 'vol' (0 - 100).
 
-	**PLAYSOUND** - Plays the sound effect file denoted by 'id' at the volume denoted by 'vol' (0 - 100).
+**PLAYSOUND** - Plays the sound effect file denoted by 'id' at the volume denoted by 'vol' (0 - 100).
 
-	**RESUMEMUSIC** - Resumes music if it is currently paused.
+**RESUMEMUSIC** - Resumes music if it is currently paused.
 
-	**SETMASTERVOLUME** - Sets the master volume to the value denoted by 'vol' (0 - 100).
+**SETMASTERVOLUME** - Sets the master volume to the value denoted by 'vol' (0 - 100).
 
-	**STOPMUSIC** - Stops any music that is currently playing.
+**STOPMUSIC** - Stops any music that is currently playing.
 
 
 ## STRINGS
@@ -118,33 +118,33 @@ These use the **800px x 480px** graphics display in the UI.
 To use string variables, they **MUST** be created using **VAR$** and can **ONLY** be the maximum length specified in **VAR$**.
 
 
-	**ADD$** - Adds the string denoted by 'addr' (address) and 'len' (length) to string variable 'var$'.
+**ADD$** - Adds the string denoted by 'addr' (address) and 'len' (length) to string variable 'var$'.
 
-	**GETCUR$** - Gets the current length ('u') of string variable 'var$'.
+**GETCUR$** - Gets the current length ('u') of string variable 'var$'.
 
-	**GET$** - Gets the address ('addr') and current length ('len') of string variable 'var$'.
+**GET$** - Gets the address ('addr') and current length ('len') of string variable 'var$'.
 
-	**GETMAX$** - Gets the maximum length of string variable 'var$'.
+**GETMAX$** - Gets the maximum length of string variable 'var$'.
 
-	**INC$** - Adds the character denoted by 'char' to string variable 'var$'.
+**INC$** - Adds the character denoted by 'char' to string variable 'var$'.
 
-	**REPLACE$** - Replaces the characters in string variable 'var$' from position start using the provided string.
+**REPLACE$** - Replaces the characters in string variable 'var$' from position start using the provided string.
 
-	**SET$** - Stores the string denoted by 'addr' (address) and 'len' (length) in string variable 'var$'.
+**SET$** - Stores the string denoted by 'addr' (address) and 'len' (length) in string variable 'var$'.
 
-	**VARADD$** - Adds the string variable 'var2$' to the string variable 'var1$'.
+**VARADD$** - Adds the string variable 'var2$' to the string variable 'var1$'.
 
-	**VAR$** - Creates an uninitialised string buffer called 'name' of maximum length 'maxlen'.
+**VAR$** - Creates an uninitialised string buffer called 'name' of maximum length 'maxlen'.
 
-	**VARREPLACE$** - Replaces the characters in string variable 'var1$' from position start using string variable 'var2$'. This will replace the characters in 'var1$', starting from character 6, with the contents of string variable 'var2$'.
+**VARREPLACE$** - Replaces the characters in string variable 'var1$' from position start using string variable 'var2$'. This will replace the characters in 'var1$', starting from character 6, with the contents of string variable 'var2$'.
 
 
 ## KEYBOARD INPUT
 
 
-	**KEY** - If a key has been pressed, pushes the key's value ('key') to the stack.
+**KEY** - If a key has been pressed, pushes the key's value ('key') to the stack.
 
-	**KEY?** - If a key has been pressed, pushes 'TRUE' to the stack, else pushes 'FALSE'.
+**KEY?** - If a key has been pressed, pushes 'TRUE' to the stack, else pushes 'FALSE'.
 
 
 ## DATABASE
@@ -152,37 +152,37 @@ To use string variables, they **MUST** be created using **VAR$** and can **ONLY*
 This implementation used **DuckDB** (https://duckdb.org/). Where there are two versions of the same command (one with **$**, and one without), these generally mean that at least one required input **MUST** be a **String Variable**.
 
 
-	**DUCKCLOSEDB** - Closes the currently opened database.
+**DUCKCLOSEDB** - Closes the currently opened database.
 
-	**DUCKINT2REAL** - Converts an integer to a string based 'real' and stores it in the denoted string variable 'strvar'.
+**DUCKINT2REAL** - Converts an integer to a string based 'real' and stores it in the denoted string variable 'strvar'.
 
-	**DUCKREAL2INT** - Converts a string based 'real' to an integer and pushes it onto the stack.
+**DUCKREAL2INT** - Converts a string based 'real' to an integer and pushes it onto the stack.
 
-	**DUCKDATECOMPARE$** - Compares two Dates, both of which must be string variables and in the ISO format: YYYY-MM-DD.
+**DUCKDATECOMPARE$** - Compares two Dates, both of which must be string variables and in the ISO format: YYYY-MM-DD.
 
-	**DUCKGETROWDATA** - Gets the data returned after calling DUCKRUNQUERY or DUCKRUNQUERY$.
+**DUCKGETROWDATA** - Gets the data returned after calling DUCKRUNQUERY or DUCKRUNQUERY$.
 
-	**DUCKGETROWDATA$** - Gets the data returned after calling DUCKRUNQUERY or DUCKRUNQUERY$.
+**DUCKGETROWDATA$** - Gets the data returned after calling DUCKRUNQUERY or DUCKRUNQUERY$.
 
-	**DUCKOPENDB** - Opens the database, 'db' (a string created using S\").
+**DUCKOPENDB** - Opens the database, 'db' (a string created using S\").
 
-	**DUCKOPENDB$** - Opens the database, 'db' (a string variable).
+**DUCKOPENDB$** - Opens the database, 'db' (a string variable).
 
-	**DUCKREALCOMPARE** - Compares two 'real' (i.e. Double, Decimal or Float) numbers, both of which must be string variables.
+**DUCKREALCOMPARE** - Compares two 'real' (i.e. Double, Decimal or Float) numbers, both of which must be string variables.
 
-	**DUCKREALCOMPARE$** - Compares two 'real' (i.e. Double, Decimal or Float) numbers, both of which must be string variables.
+**DUCKREALCOMPARE$** - Compares two 'real' (i.e. Double, Decimal or Float) numbers, both of which must be string variables.
 
-	**DUCKRUNQUERY** - Runs an SQL query against the currently opened database. The 'qry' must be created using S\".
+**DUCKRUNQUERY** - Runs an SQL query against the currently opened database. The 'qry' must be created using S\".
 
-	**DUCKRUNQUERY$** - Runs an SQL query against the currently opened database. The 'qry' must be a string variable.
+**DUCKRUNQUERY$** - Runs an SQL query against the currently opened database. The 'qry' must be a string variable.
 
-	**DUCKTIMECOMPARE** - Compares two Times, both of which must be string variables and in the ISO format: hh:mm:ss.
+**DUCKTIMECOMPARE** - Compares two Times, both of which must be string variables and in the ISO format: hh:mm:ss.
 
-	**DUCKTIMECOMPARE$** - Compares two Times, both of which must be string variables and in the ISO format: hh:mm:ss.
+**DUCKTIMECOMPARE$** - Compares two Times, both of which must be string variables and in the ISO format: hh:mm:ss.
 
-	**DUCKTIMESTAMPCOMPARE** - Compares two Timestamps, both of which must be string variables and in the ISO format: YYYY-MM-DD hh:mm:ss.
+**DUCKTIMESTAMPCOMPARE** - Compares two Timestamps, both of which must be string variables and in the ISO format: YYYY-MM-DD hh:mm:ss.
 
-	**DUCKTIMESTAMPCOMPARE$** - Compares two Timestamps, both of which must be string variables and in the ISO format: YYYY-MM-DD hh:mm:ss.
+**DUCKTIMESTAMPCOMPARE$** - Compares two Timestamps, both of which must be string variables and in the ISO format: YYYY-MM-DD hh:mm:ss.
 
 
 ## FROGGER
