@@ -17,6 +17,9 @@ NOTE: It has a built in Code Editor (complete with syntax highlighting - see Cus
 NOTE: Any reference to **id** in the below words refer to the data stored in the **USER DATA FOLDER**.
 
 
+![In Game Screenshot](https://github.com/adam-p/markdown-here/raw/master/src/common/images/InGame.png)
+
+
 ## USER DATA FOLDER
 
 This folder **MUST** be moved to the project's **USER DATA FOLDER** before running the application.
