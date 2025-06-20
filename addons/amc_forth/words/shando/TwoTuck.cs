@@ -9,8 +9,8 @@ namespace Forth.Shando
             : base(forth, wordset)
         {
             Name = "2TUCK";
-            Description = "Place a copy of the two top stack items below the fourth stack item."
-                + " Example usage: 5 6 7 8 2TUCK";
+            Description = "Place a copy of the two top stack items below the fourth stack item.<br/>"
+                + "Example usage: 5 6 7 8 2TUCK";
             StackEffect = "( x1 x2 x3 x4 -- x3 x4 x1 x2 x3 x4 )";
         }
 

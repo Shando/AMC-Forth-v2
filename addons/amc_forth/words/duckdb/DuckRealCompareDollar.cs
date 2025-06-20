@@ -11,10 +11,10 @@ namespace Forth.DuckDb
         {
             Name = "DUCKREALCOMPARE$";
             Description =
-                "Compares two 'real' (i.e. Double, Decimal or Float) numbers, both of which must be string variables."
-                + " NOTE: 'comp' is a string variable and can be one of '==', '<', '<=', '>', '>=' or '<>'."
-                + " NOTE1: The comparison is as follows: real1 < real2."
-                + " Example usage: real1 real2 comp DUCKREALCOMPARE$";
+                "Compares two 'real' (i.e. Double, Decimal or Float) numbers, both of which must be string variables.<br/>"
+                + "NOTE: 'comp' is a string variable and can be one of '==', '<', '<=', '>', '>=' or '<>'.<br/>"
+                + "NOTE1: The comparison is as follows: real1 < real2.<br/>"
+                + "Example usage: real1 real2 comp DUCKREALCOMPARE$";
             StackEffect = "( real1 real2 comp -- flag )";
         }
 

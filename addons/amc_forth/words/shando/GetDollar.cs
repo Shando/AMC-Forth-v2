@@ -9,8 +9,8 @@ namespace Forth.Shando
             : base(forth, wordset)
         {
             Name = "GET$";
-            Description = "Gets the address ('addr') and current length ('len') of string variable 'var$'."
-                + " Example usage: myVar GET$";
+            Description = "Gets the address ('addr') and current length ('len') of string variable 'var$'.<br/>"
+                + "Example usage: myVar GET$";
             StackEffect = "( var$ -- addr len )";
         }
 

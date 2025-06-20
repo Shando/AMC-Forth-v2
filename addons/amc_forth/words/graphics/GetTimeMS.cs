@@ -11,8 +11,8 @@ namespace Forth.Graphics
         {
             Name = "GETTIMEMS";
             Description =
-                "Get the current System Time in milliseconds (no decimal) as a double."
-                + " Example usage: GETTIMEMS 10 D.R";
+                "Get the current System Time in milliseconds (no decimal) as a double.<br/>"
+                + "Example usage: GETTIMEMS 10 D.R";
             StackEffect = "( -- d )";
         }
 

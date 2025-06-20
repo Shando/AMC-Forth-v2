@@ -10,12 +10,12 @@ namespace Forth.SQLite
         {
             Name = "INSERTROW$";
             Description =
-                "Inserts a row into the currently opened database table, 'tbl' (a string variable)."
-                + " The dictionary, 'dict' (a string variable) must be created as per the below:"
-                + " {'col1name': col1value, 'col2name': col2value, etc.}"
-                + " It must match the relevant entries in the table that do not have a default value."
-                + " Puts 'TRUE' or 'FALSE' on the stack depending on the success of the operation."
-                + " Example usage: myTable myDict INSERTROW$";
+                "Inserts a row into the currently opened database table, 'tbl' (a string variable).<br/>"
+                + "The dictionary, 'dict' (a string variable) must be created as per the below:"
+                + " {'col1name': col1value, 'col2name': col2value, etc.}<br/>"
+                + "NOTE: It must match the relevant entries in the table that do not have a default value.<br/>"
+                + "NOTE1: Puts 'TRUE' or 'FALSE' on the stack depending on the success of the operation.<br/>"
+                + "Example usage: myTable myDict INSERTROW$";
             StackEffect = "( tbl dict -- flag )";
         }
 

@@ -9,9 +9,9 @@ namespace Forth.Graphics
             : base(forth, wordset)
         {
             Name = "HIDESPRITE";
-            Description = 
-                "Hide the sprite denoted by its spriteid ('id')."
-                + " Example usage: 55 HIDESPRITE";
+            Description =
+                "Hide the sprite denoted by its spriteid ('id').<br/>"
+                + "Example usage: 55 HIDESPRITE";
             StackEffect = "( id -- )";
         }
 

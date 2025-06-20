@@ -9,11 +9,11 @@ namespace Forth.Shando
             : base(forth, wordset)
         {
             Name = "SET$";
-            Description = "Stores the string denoted by 'addr' (address) and 'len' (length) in string variable 'var$'."
-                + " NOTE: This will overwrite the existing string in 'var$', but may leave some characters if 'len' is less than"
-                + "     the current length of the stored string."
-                + " NOTE2: A string that doesn't fit in the buffer has any overflow characters discarded."
-                + " Example usage: S\" My String\" myVar SET$";
+            Description = "Stores the string denoted by 'addr' (address) and 'len' (length) in string variable 'var$'.<br/>"
+                + "NOTE: This will overwrite the existing string in 'var$', but may leave some characters if 'len' is less than"
+                + " the current length of the stored string.<br/>"
+                + "NOTE1: A string that doesn't fit in the buffer has any overflow characters discarded.<br/>"
+                + "Example usage: S\" My String\" myVar SET$";
             StackEffect = "( addr len var$ -- )";
         }
 

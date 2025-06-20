@@ -11,8 +11,8 @@ namespace Forth.Graphics
             Name = "REMOVESPRITE";
             Description = 
                 "Remove the sprite denoted by its spriteid ('id')."
-                + " For example: id = 77, spriteID = Sprite077.png"
-                + " Example usage: 5 REMOVESPRITE";
+                + " For example: id = 77, spriteID = Sprite077.png<br/>"
+                + "Example usage: 5 REMOVESPRITE";
             StackEffect = "( id -- )";
         }
 

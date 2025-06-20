@@ -11,9 +11,9 @@ namespace Forth.Shando
         {
             Name = "-TRAILING";
             Description =
-                "If 'u1' is greater than zero, 'u2' is equal to 'u1' less the number of spaces at the end of the character string specified by 'c-addr' 'u1'."
-                + " NOTE: If 'u1' is zero or the entire string consists of spaces, 'u2' is zero."
-                + " Example usage: myVar 5 -TRAILING";
+                "If 'u1' is greater than zero, 'u2' is equal to 'u1' less the number of spaces at the end of the character string specified by 'c-addr' 'u1'.<br/>"
+                + "NOTE: If 'u1' is zero or the entire string consists of spaces, 'u2' is zero.<br/>"
+                + "Example usage: myVar 5 -TRAILING";
             StackEffect = "( c-addr u1 -- c-addr u2 )";
         }
 

@@ -10,9 +10,9 @@ namespace Forth.SQLite
         {
             Name = "OPENDB";
             Description =
-                "Opens the database, 'db' (a string created using S\"). Puts 'TRUE' or 'FALSE' on the stack"
-                + " depending on the success of the operation."
-                + " Example usage: S\" myDB\" OPENDB";
+                "Opens the database, 'db' (a string created using S\").<br/>"
+                + "NOTE: Puts 'TRUE' or 'FALSE' on the stack depending on the success of the operation.<br/>"
+                + "Example usage: S\" myDB\" OPENDB";
             StackEffect = "( db -- flag )";
         }
 

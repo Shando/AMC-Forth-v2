@@ -12,7 +12,8 @@ namespace Forth.CoreExt
             Description =
                 "Create a dictionary definition for <name>, to be used as a deletion "
                 + "boundary. When <name> is executed, remove the definition for <name> "
-                + "and all subsequent definitions. Example usage: MARKER <name>";
+                + "and all subsequent definitions.<br/>"
+                + "Example usage: MARKER <name>";
             StackEffect = "( 'name' -- )";
         }
 

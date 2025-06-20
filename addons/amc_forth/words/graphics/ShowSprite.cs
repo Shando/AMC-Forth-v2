@@ -11,8 +11,8 @@ namespace Forth.Graphics
             Name = "SHOWSPRITE";
             Description =
                 "Show the sprite denoted by its spriteid ('id')."
-                + " For example: id = 7 will show user://Sprites/Sprite007.png."
-                + " Example usage: 7 SHOWSPRITE";
+                + " For example: id = 7 will show user://Sprites/Sprite007.png.<br/>"
+                + "Example usage: 7 SHOWSPRITE";
             StackEffect = "( id -- )";
         }
 

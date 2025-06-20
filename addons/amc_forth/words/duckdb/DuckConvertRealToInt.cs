@@ -12,10 +12,10 @@ namespace Forth.DuckDb
         {
             Name = "DUCKREAL2INT";
             Description =
-                "Converts a string based 'real' to an integer and pushes it onto the stack."
-                + " NOTE: the 'real' will be rounded to the nearest integer."
-                + " NOTE2: any error will push 0 onto the stack."
-                + " Example usage: strvar DUCKREAL2INT";
+                "Converts a string based 'real' to an integer and pushes it onto the stack.<br/>"
+                + "NOTE: the 'real' will be rounded to the nearest integer.<br/>"
+                + "NOTE1: any error will push 0 onto the stack.<br/>"
+                + "Example usage: strvar DUCKREAL2INT";
             StackEffect = "( var -- int )";
         }
 

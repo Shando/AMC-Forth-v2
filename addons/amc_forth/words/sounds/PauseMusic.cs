@@ -9,9 +9,9 @@ namespace Forth.Sound
             : base(forth, wordset)
         {
             Name = "PAUSEMUSIC";
-            Description = 
-                "Pauses any music that is currently playing."
-                + " Example usage: PAUSEMUSIC";
+            Description =
+                "Pauses any music that is currently playing.<br/>"
+                + "Example usage: PAUSEMUSIC";
             StackEffect = "( -- )";
         }
 

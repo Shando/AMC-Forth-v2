@@ -10,8 +10,8 @@ namespace Forth.Shando
         {
             Name = "ERASE";
             Description =
-                "If 'u' is greater than zero, clear all bits in each of 'u' consecutive address units of memory, beginning at 'addr'."
-                + " Example usage: 256 4 ERASE";
+                "If 'u' is greater than zero, clear all bits in each of 'u' consecutive address units of memory, beginning at 'addr'.<br/>"
+                + "Example usage: 256 4 ERASE";
             StackEffect = "( addr u -- )";
         }
 

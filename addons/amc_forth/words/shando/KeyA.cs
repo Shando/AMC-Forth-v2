@@ -9,9 +9,9 @@ namespace Forth.Shando
             : base(forth, wordset)
         {
             Name = "KEY";
-            Description = 
-                "If a key has been pressed, pushes the key's value ('key') to the stack."
-                + " Example usage: KEY";
+            Description =
+                "If a key has been pressed, pushes the key's value ('key') to the stack.<br/>"
+                + "Example usage: KEY";
             StackEffect = "( -- key )";
         }
 

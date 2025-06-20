@@ -9,8 +9,8 @@ namespace Forth.Shando
             : base(forth, wordset)
         {
             Name = "GETMAX$";
-            Description = "Gets the maximum length of string variable 'var$'."
-                + " Example usage: myVar GETMAX$";
+            Description = "Gets the maximum length of string variable 'var$'.<br/>"
+                + "Example usage: myVar GETMAX$";
             StackEffect = "( var$ -- u )";
         }
 

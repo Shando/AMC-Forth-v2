@@ -10,10 +10,10 @@ namespace Forth.Shando
             : base(forth, wordset)
         {
             Name = "VARADD$";
-            Description = "Adds the string variable 'var2$' to the string variable 'var1$'."
-                + " NOTE: 'var1$' and 'var2$' must have already been initialised with SET$ before you use this word."
-                + " NOTE2: A string that doesn't fit in the buffer has any overflow characters discarded."
-                + " Example usage: myString2 myString1 ADD$.";
+            Description = "Adds the string variable 'var2$' to the string variable 'var1$'.<br/>"
+                + "NOTE: 'var1$' and 'var2$' must have already been initialised with SET$ before you use this word.<br/>"
+                + "NOTE1: A string that doesn't fit in the buffer has any overflow characters discarded.<br/>"
+                + "Example usage: myString2 myString1 ADD$.";
             StackEffect = "( var2$ var1$ -- )";
         }
 

@@ -14,8 +14,8 @@ namespace Forth.Graphics
         {
             Name = "GETSPRITEPOSITION";
             Description =
-                "Gets the position ('x', 'y') of the top left pixel of the sprite denoted by 'id'."
-                + " Example usage: 15 GETSPRITEPOSITION";
+                "Gets the position ('x', 'y') of the top left pixel of the sprite denoted by 'id'.<br/>"
+                + "Example usage: 15 GETSPRITEPOSITION";
             StackEffect = "( id -- x y )";
         }
 

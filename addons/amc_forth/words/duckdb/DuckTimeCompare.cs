@@ -11,11 +11,11 @@ namespace Forth.DuckDb
         {
             Name = "DUCKTIMECOMPARE";
             Description =
-                "Compares two Times, both of which must be string variables and in the ISO format: hh:mm:ss."
-                + " NOTE: 'comp' is a string, created using S\", and can be one of '==', '<', '<=', '>', '>=' or '<>'."
-                + " NOTE: The comparison is as follows: time1 < time2."
-                + " NOTE2: This ignores any microseconds and time zones."
-                + " Example usage: time1 time2 S\" <\" DUCKTIMECOMPARE";
+                "Compares two Times, both of which must be string variables and in the ISO format: hh:mm:ss.<br/>"
+                + "NOTE: 'comp' is a string, created using S\", and can be one of '==', '<', '<=', '>', '>=' or '<>'.<br/>"
+                + "NOTE1: The comparison is as follows: time1 < time2.<br/>"
+                + "NOTE2: This ignores any microseconds and time zones.<br/>"
+                + "Example usage: time1 time2 S\" <\" DUCKTIMECOMPARE";
             StackEffect = "( time1 time2 comp -- flag )";
         }
 

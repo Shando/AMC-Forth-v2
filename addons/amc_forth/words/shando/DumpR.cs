@@ -11,8 +11,8 @@ namespace Forth.Shando
             Name = "DUMPR";
             Description =
                 "If 'u' is greater than zero and 'addr' is less than the size of the Return Stack, display the contents of"
-                + " 'u' consecutive addresses of the Return Stack starting at 'addr'."
-                + " Example usage: 500 100 DUMPR";
+                + " 'u' consecutive addresses of the Return Stack starting at 'addr'.<br/>"
+                + "Example usage: 500 100 DUMPR";
             StackEffect = "( addr u -- )";
         }
 

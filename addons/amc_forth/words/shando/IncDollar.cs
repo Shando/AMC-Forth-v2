@@ -9,10 +9,10 @@ namespace Forth.Shando
             : base(forth, wordset)
         {
             Name = "INC$";
-            Description = "Adds the character denoted by 'char' to string variable 'var$'."
-                + " NOTE: 'var$' must have already been initialised with SET$ before you use this word."
-                + " NOTE2: A string that doesn't fit in the buffer has any overflow characters discarded."
-                + " Example usage: CHAR x myVar INC$";
+            Description = "Adds the character denoted by 'char' to string variable 'var$'.<br/>"
+                + "NOTE: 'var$' must have already been initialised with SET$ before you use this word.<br/>"
+                + "NOTE1: A string that doesn't fit in the buffer has any overflow characters discarded.<br/>"
+                + "Example usage: CHAR x myVar INC$";
             StackEffect = "( char var$ -- )";
         }
 

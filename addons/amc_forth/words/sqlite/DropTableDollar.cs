@@ -10,9 +10,9 @@ namespace Forth.SQLite
         {
             Name = "DROPTABLE$";
             Description =
-                "Drops the table, 'tbl' (a string variable) from the currently opened database."
-                + " Puts 'TRUE' or 'FALSE' on the stack depending on the success of the operation."
-                + " Example usage: myTbl DROPTABLE$";
+                "Drops the table, 'tbl' (a string variable) from the currently opened database.<br/>"
+                + "NOTE: Puts 'TRUE' or 'FALSE' on the stack depending on the success of the operation.<br/>"
+                + "Example usage: myTbl DROPTABLE$";
             StackEffect = "( tbl -- flag )";
         }
 

@@ -10,9 +10,9 @@ namespace Forth.SQLite
         {
             Name = "CLOSEDB";
             Description =
-                "Closes the currently opened database."
-                + " Puts 'TRUE' or 'FALSE' on the stack depending on the success of the operation."
-                + " Example usage: CLOSEDB";
+                "Closes the currently opened database.<br/>"
+                + "NOTE: Puts 'TRUE' or 'FALSE' on the stack depending on the success of the operation.<br/>"
+                + "Example usage: CLOSEDB";
             StackEffect = "( -- flag )";
         }
 

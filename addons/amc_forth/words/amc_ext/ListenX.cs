@@ -10,9 +10,9 @@ namespace Forth.AMCExt
         {
             Name = "LISTENX";
             Description =
-                "Add a lookup entry for the IO port p, to execute xt. "
-                + "Events to port p are enqueued with q mode (0, 1, 2), "
-                + "where q = enqueue: 0 - always, 1 - if new value, 2 - replace all prior. "
+                "Add a lookup entry for the IO port p, to execute xt."
+                + "Events to port p are enqueued with q mode (0, 1, 2),"
+                + " where q = enqueue: 0 - always, 1 - if new value, 2 - replace all prior.<br/>"
                 + "NOTE: An input port may have only one handler word.";
             StackEffect = "( xt p q - )";
         }

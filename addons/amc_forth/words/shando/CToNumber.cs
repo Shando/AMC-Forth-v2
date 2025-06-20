@@ -10,8 +10,8 @@ namespace Forth.Shando
         {
             Name = "C>NUMBER";
             Description =
-                "Convert the number represented by the character 'c' to its numeric equivalent 'u'."
-                + " Example usage: CHAR 5 C>NUMBER";
+                "Convert the number represented by the character 'c' to its numeric equivalent 'u'.<br/>"
+                + "Example usage: CHAR 5 C>NUMBER";
             StackEffect = "( c -- u )";
         }
 

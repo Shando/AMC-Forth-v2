@@ -10,12 +10,12 @@ namespace Forth.SQLite
         {
             Name = "UPDATEROWS$";
             Description =
-                "Updates rows in the table, 'tbl' (a string variable), in the currently opened database."
-                + " The query, 'qry' (a string variable) represents the SQL query, and the column data list,"
-                + " 'cols' (a string variable) must be similar to the below:"
-                + " {'col1name': 'text goes here', 'col3name': 15, 'col4name': 'more text'}"
-                + " Puts 'TRUE' or 'FALSE' on the stack depending on the success of the operation."
-                + " Example usage: myTbl myQry myCols UPDATEROWS$";
+                "Updates rows in the table, 'tbl' (a string variable), in the currently opened database.<br/>"
+                + "The query, 'qry' (a string variable) represents the SQL query, and the column data list,"
+                + "'cols' (a string variable) must be similar to the below:<br/>"
+                + " {'col1name': 'text goes here', 'col3name': 15, 'col4name': 'more text'}<br/>"
+                + "NOTE: Puts 'TRUE' or 'FALSE' on the stack depending on the success of the operation.<br/>"
+                + "Example usage: myTbl myQry myCols UPDATEROWS$";
             StackEffect = "( tbl qry cols -- flag )";
         }
 

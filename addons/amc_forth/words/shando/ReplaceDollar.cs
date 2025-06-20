@@ -9,11 +9,11 @@ namespace Forth.Shando
             : base(forth, wordset)
         {
             Name = "REPLACE$";
-            Description = "Replaces the characters in string variable 'var$' from position start using the provided string."
-                + " NOTE: 'var$' must have already been initialised with SET$ before you use this word."
-                + " NOTE2: A string that doesn't fit in the buffer has any overflow characters discarded."
-                + " NOTE3: The replacement string must have been created using S\""
-                + " Example usage: S\" London\" 6 myVar REPLACE$.";
+            Description = "Replaces the characters in string variable 'var$' from position start using the provided string.<br/>"
+                + "NOTE: 'var$' must have already been initialised with SET$ before you use this word.<br/>"
+                + "NOTE1: A string that doesn't fit in the buffer has any overflow characters discarded.<br/>"
+                + "NOTE2: The replacement string must have been created using S\".<br/>"
+                + "Example usage: S\" London\" 6 myVar REPLACE$.";
             StackEffect = "( addr u start var$ -- )";
         }
 

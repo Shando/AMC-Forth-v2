@@ -11,7 +11,7 @@ namespace Forth.Core
             Name = "CONSTANT";
             Description =
                 "Create a dictionary entry for <name>, associated with constant x. "
-                + "Executing <name> places the value on the stack. "
+                + "Executing <name> places the value on the stack.<br/>"
                 + "Example usage: <x> CONSTANT <name>";
             StackEffect = "Compile: ( 'name' x -- ), Execute: ( -- x )";
         }

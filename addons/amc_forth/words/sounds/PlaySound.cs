@@ -11,8 +11,8 @@ namespace Forth.Sound
             Name = "PLAYSOUND";
             Description =
                 "Plays the sound effect file denoted by 'id' at the volume denoted by 'vol' (0 - 100)."
-                + " For example: id = 7 will play user://Sounds/Sfx/007.mp3"
-                + " Example usage: 7 33 PLAYSOUND";
+                + " For example: id = 7 will play user://Sounds/Sfx/007.mp3<br/>"
+                + "Example usage: 7 33 PLAYSOUND";
             StackEffect = "( id vol -- )";
         }
 

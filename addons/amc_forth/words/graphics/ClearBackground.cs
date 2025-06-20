@@ -9,9 +9,9 @@ namespace Forth.Graphics
             : base(forth, wordset)
         {
             Name = "CLEARBACKGROUND";
-            Description = 
-                "Clears the background layer."
-                + " Example usage: CLEARBACKGROUND";
+            Description =
+                "Clears the background layer.<br/>"
+                + "Example usage: CLEARBACKGROUND";
             StackEffect = "( -- )";
         }
 

@@ -10,11 +10,11 @@ namespace Forth.AMCExt
         {
             Name = "LISTEN";
             Description =
-                "Add a lookup entry for the IO port p, to execute 'word'. "
-                + "Events to port p are enqueued with q mode (0, 1, 2), "
-                + "where q = enqueue: 0 - always, 1 - if new value, 2 - replace all prior. "
+                "Add a lookup entry for the IO port p, to execute 'word'."
+                + " Events to port p are enqueued with q mode (0, 1, 2),"
+                + " where q = enqueue: 0 - always, 1 - if new value, 2 - replace all prior.<br/>"
                 + "LISTEN should not be used inside a colon definition, unless <name> is "
-                + "provided following invocation of the definition. "
+                + "provided following invocation of the definition.<br/>"
                 + "NOTE: An input port may have only one handler word.";
             StackEffect = "( 'word' p q - )";
         }

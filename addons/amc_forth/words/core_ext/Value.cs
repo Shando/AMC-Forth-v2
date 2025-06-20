@@ -10,7 +10,7 @@ namespace Forth.CoreExt
         {
             Name = "VALUE";
             Description =
-                "Create a dictionary entry for name, associated with value x. "
+                "Create a dictionary entry for name, associated with value x.<br/>"
                 + "Example usage: <x> VALUE <name>";
             StackEffect = "( 'name' x -- )";
         }

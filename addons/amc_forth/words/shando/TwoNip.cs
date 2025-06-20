@@ -9,8 +9,8 @@ namespace Forth.Shando
             : base(forth, wordset)
         {
             Name = "2NIP";
-            Description = "Drop the second cell pair on the stack."
-                + " Example usage: 5 6 7 8 2NIP";
+            Description = "Drop the second cell pair on the stack.<br/>"
+                + "Example usage: 5 6 7 8 2NIP";
             StackEffect = "( x1 x2 x3 x4 -- x3 x4 )";
         }
 

@@ -10,9 +10,8 @@ namespace Forth.Core
         {
             Name = "POSTPONE";
             Description =
-                "At compile time, add the compilation behavior of the following "
-                + "name, rather than its execution behavior. NOTE: POSTPONE is "
-                + "not fully implemented and should not be used.";
+                "At compile time, add the compilation behavior of the following name, rather than its execution behavior.<br/>"
+                + "NOTE: POSTPONE is not fully implemented and should not be used.";
             StackEffect = "( 'name' -- )";
             Immediate = true;
         }

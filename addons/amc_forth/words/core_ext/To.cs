@@ -10,7 +10,7 @@ namespace Forth.CoreExt
         {
             Name = "TO";
             Description =
-                "Store x in the data space associated with name (defined with VALUE). "
+                "Store x in the data space associated with name (defined with VALUE).<br/>"
                 + "Example usage: <x> TO <name>";
             StackEffect = "( 'name' x -- )";
             Immediate = true;

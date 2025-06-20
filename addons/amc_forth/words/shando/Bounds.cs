@@ -11,8 +11,8 @@ namespace Forth.Shando
             Name = "BOUNDS";
             Description =
                 "Given a memory block represented by starting address 'addr' and length 'u' in address units, produce"
-                + " the end address 'addr' + 'u' and the start address in the right order."
-                + " Example usage: 256 10 BOUNDS";
+                + " the end address 'addr' + 'u' and the start address in the right order.<br/>"
+                + "Example usage: 256 10 BOUNDS";
             StackEffect = "( addr u -- addr+u addr )";
         }
 

@@ -9,8 +9,8 @@ namespace Forth.Shando
             : base(forth, wordset)
         {
             Name = "C+!";
-            Description = "Cell version of COUNT."
-                + " Example usage: CHAR x 256 C+!";
+            Description = "Cell version of COUNT.<br/>"
+                + "Example usage: CHAR x 256 C+!";
             StackEffect = "( ch addr -- )";
         }
 

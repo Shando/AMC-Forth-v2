@@ -9,8 +9,8 @@ namespace Forth.Shando
             : base(forth, wordset)
         {
             Name = "VAR$";
-            Description = "Creates an uninitialised string buffer called 'name' of maximum length 'maxlen'."
-                + " Example usage: 20 VAR$ myString";
+            Description = "Creates an uninitialised string buffer called 'name' of maximum length 'maxlen'.<br/>"
+                + "Example usage: 20 VAR$ myString";
             StackEffect = "( maxlen 'name' -- )";
         }
 

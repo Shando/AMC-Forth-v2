@@ -10,8 +10,8 @@ namespace Forth.Shando
             : base(forth, wordset)
         {
             Name = "ABORT";
-            Description = "Empty the data stack and perform the function of QUIT, which includes emptying the return stack, without displaying a message."
-                + " Example usage: ABORT";
+            Description = "Empty the data stack and perform the function of QUIT, which includes emptying the return stack, without displaying a message.<br/>"
+                + "Example usage: ABORT";
             StackEffect = "( i * x -- ) ( R: j * x -- )";
         }
 

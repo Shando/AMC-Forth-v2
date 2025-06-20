@@ -9,9 +9,9 @@ namespace Forth.Shando
             : base(forth, wordset)
         {
             Name = "HOLDS";
-            Description = "Adds the string represented by 'c-addr' 'u' to the pictured numeric output string."
-                + " NOTE: An ambiguous condition exists if HOLDS executes outside of a '<#' '#>' delimited number conversion."
-                + " Example usage: S\" My String\" HOLDS";
+            Description = "Adds the string represented by 'c-addr' 'u' to the pictured numeric output string.<br/>"
+                + "NOTE: An ambiguous condition exists if HOLDS executes outside of a '<#' '#>' delimited number conversion.<br/>"
+                + "Example usage: S\" My String\" HOLDS";
             StackEffect = "( c-addr u -- )";
         }
 

@@ -9,8 +9,8 @@ namespace Forth.Shando
             : base(forth, wordset)
         {
             Name = "-TAIL";
-            Description = "Removes 'i' characters from the end of the string variable 'var$'."
-                + " Example usage: myVar 4 -TAIL.";
+            Description = "Removes 'i' characters from the end of the string variable 'var$'.<br/>"
+                + "Example usage: myVar 4 -TAIL.";
             StackEffect = "( var$ i -- )";
         }
 

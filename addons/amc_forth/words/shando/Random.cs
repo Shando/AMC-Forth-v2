@@ -10,8 +10,8 @@ namespace Forth.Shando
             : base(forth, wordset)
         {
             Name = "RAND";
-            Description = "Generate a random number between 'n1' and 'n2' inclusive."
-                + " Example usage: 0 10 RAND";
+            Description = "Generate a random number between 'n1' and 'n2' inclusive.<br/>"
+                + "Example usage: 0 10 RAND";
             StackEffect = "( n1 n2 -- n3 )";
         }
 

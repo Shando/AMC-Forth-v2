@@ -11,9 +11,9 @@ namespace Forth.Graphics
             : base(forth, wordset)
         {
             Name = "GETPIXEL";
-            Description = 
-                "Gets the colour ('r', 'g', 'b', 'a') of the pixel 'x', 'y'."
-                + " Example usage: 50 50 GETPIXEL";
+            Description =
+                "Gets the colour ('r', 'g', 'b', 'a') of the pixel 'x', 'y'.<br/>"
+                + "Example usage: 50 50 GETPIXEL";
             StackEffect = "( x y -- r g b a )";
         }
 

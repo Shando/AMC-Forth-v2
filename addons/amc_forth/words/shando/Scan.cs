@@ -11,10 +11,10 @@ namespace Forth.Shando
             Name = "SCAN";
             Description =
                 " Search the string specified by 'c-addr1' 'u1' for the character specified by 'c'."
-                + " Skip all characters not equal to 'c'. The result starts with 'c' or is empty."
-                + " NOTE: SCAN is limited to single-byte (ASCII) characters."
-                + " NOTE2: Use SEARCH to search for multi-byte characters."
-                + " Example usage: S\" My String\" CHAR t SCAN";
+                + " Skip all characters not equal to 'c'. The result starts with 'c' or is empty.<br/>"
+                + "NOTE: SCAN is limited to single-byte (ASCII) characters.<br/>"
+                + "NOTE1: Use SEARCH to search for multi-byte characters.<br/>"
+                + "Example usage: S\" My String\" CHAR t SCAN";
             StackEffect = "( c-addr1 u1 c -- c-addr2 u2 )";
         }
 

@@ -10,8 +10,8 @@ namespace Forth.Shando
         {
             Name = "ABORT\"";
             Description = "Parse 'ccc' delimited by a \" (double quote). Remove 'x1' from the stack."
-                + " If any bit of 'x1' is not zero, display 'ccc' and perform an implementation-defined abort sequence that includes the function of ABORT."
-                + " Example usage: ABORT\" Error: Division by zero!\"";
+                + " If any bit of 'x1' is not zero, display 'ccc' and perform an implementation-defined abort sequence that includes the function of ABORT.<br/>"
+                + "Example usage: ABORT\" Error: Division by zero!\"";
             StackEffect = "Compile: ( \"ccc<quote>\" -- ) | Run: (i * x x1-- | i * x ) (R: j * x-- | j * x )";
             Immediate = true;
         }

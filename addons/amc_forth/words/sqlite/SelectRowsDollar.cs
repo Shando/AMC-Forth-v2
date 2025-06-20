@@ -10,13 +10,13 @@ namespace Forth.SQLite
         {
             Name = "SELECTROWS$";
             Description =
-                "Selects rows from the currently opened database table, 'tbl' (a string variable)."
-                + " The query, 'qry' (a string variable) represents the SQL query, and the list of columns,"
-                + " 'cols' (a string variable) must be a comma separated list as per below:"
+                "Selects rows from the currently opened database table, 'tbl' (a string variable).<br/>"
+                + "The query, 'qry' (a string variable) represents the SQL query, and the list of columns,"
+                + " 'cols' (a string variable) must be a comma separated list as per below:<br/>"
                 + " colname1, colname2, colname3."
-                + " The total number of results, u, will be left on the stack."
-                + " Results can be retrieved using GETROWDATA or GETROWDATA$."
-                + " Example usage: myTbl myQry myCols SELECTROWS$";
+                + "NOTE: The total number of results, u, will be left on the stack.<br/>"
+                + "NOTE1: Results can be retrieved using GETROWDATA or GETROWDATA$.<br/>"
+                + "Example usage: myTbl myQry myCols SELECTROWS$";
             StackEffect = "( tbl qry cols -- u )";
         }
 

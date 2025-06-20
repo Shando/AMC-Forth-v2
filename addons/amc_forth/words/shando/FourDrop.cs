@@ -9,8 +9,8 @@ namespace Forth.Shando
             : base(forth, wordset)
         {
             Name = "4DROP";
-            Description = "Remove the top four items from the stack."
-                + " Example usage: 5 6 7 8 4DROP";
+            Description = "Remove the top four items from the stack.<br/>"
+                + "Example usage: 5 6 7 8 4DROP";
             StackEffect = "( x1 x2 x3 x4 -- )";
         }
 

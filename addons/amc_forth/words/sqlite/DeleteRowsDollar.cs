@@ -11,9 +11,9 @@ namespace Forth.SQLite
             Name = "DELETEROWS$";
             Description =
                 "Deletes rows in the table, 'tbl' (a string variable), in the currently opened database."
-                + " The SQL query, 'qry' (a string variable) contains the relevant SQL query."
-                + " Puts 'TRUE' or 'FALSE' on the stack depending on the success of the operation."
-                + " Example usage: myTbl myQry DELETEROWS$";
+                + " The SQL query, 'qry' (a string variable) contains the relevant SQL query.<br/>"
+                + "NOTE: Puts 'TRUE' or 'FALSE' on the stack depending on the success of the operation.<br/>"
+                + "Example usage: myTbl myQry DELETEROWS$";
             StackEffect = "( tbl qry -- flag )";
         }
 

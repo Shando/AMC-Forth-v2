@@ -9,10 +9,10 @@ namespace Forth.Graphics
             : base(forth, wordset)
         {
             Name = "CLEARSCREEN";
-            Description = 
-                "Fills the foreground screen with colour ('r', 'g', 'b', 'a')."
-                + " NOTE: If 'aa' is set to 0 then AntiAliasing will be OFF, if set to 1 then it will be ON"
-                + " Example usage: 255 255 0 255 1 CLEARSCREEN";
+            Description =
+                "Fills the foreground screen with colour ('r', 'g', 'b', 'a').<br/>"
+                + "NOTE: If 'aa' is set to 0 then AntiAliasing will be OFF, if set to 1 then it will be ON<br/>"
+                + "Example usage: 255 255 0 255 1 CLEARSCREEN";
             StackEffect = "( r g b a aa -- )";
         }
 

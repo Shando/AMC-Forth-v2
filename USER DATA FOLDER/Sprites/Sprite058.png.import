@@ -3,21 +3,23 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://t0uluu534oy1"
-path="res://.godot/imported/Sprite058.png-70eb2c394071b71ed1e4f119387042db.ctex"
+path="res://.godot/imported/Sprite058.png-da65b9c26d729a86d03fa222ae5a3ab7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Sprite058.png"
-dest_files=["res://.godot/imported/Sprite058.png-70eb2c394071b71ed1e4f119387042db.ctex"]
+source_file="res://USER DATA FOLDER/Sprites/Sprite058.png"
+dest_files=["res://.godot/imported/Sprite058.png-da65b9c26d729a86d03fa222ae5a3ab7.ctex"]
 
 [params]
 
 compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
+compress/uastc_level=0
+compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
 compress/normal_map=0
 compress/channel_pack=0

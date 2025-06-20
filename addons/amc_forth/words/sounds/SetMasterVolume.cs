@@ -10,8 +10,8 @@ namespace Forth.Sound
         {
             Name = "SETMASTERVOLUME";
             Description =
-                "Sets the master volume to the value denoted by 'vol' (0 - 100)."
-                + " Example usage: 33 SETMASTERVOLUME";
+                "Sets the master volume to the value denoted by 'vol' (0 - 100).<br/>"
+                + "Example usage: 33 SETMASTERVOLUME";
             StackEffect = "( vol -- )";
         }
 

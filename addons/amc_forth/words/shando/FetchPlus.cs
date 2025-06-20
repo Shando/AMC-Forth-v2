@@ -9,8 +9,8 @@ namespace Forth.Shando
             : base(forth, wordset)
         {
             Name = "@+";
-            Description = "Adds the cell size (in bytes) to the memory location ('addr1'), and then gets the new address and the value in the original address."
-                + " Example usage: 256 @+";
+            Description = "Adds the cell size (in bytes) to the memory location ('addr1'), and then gets the new address and the value in the original address.<br/>"
+                + "Example usage: 256 @+";
             StackEffect = "( addr1 -- addr2 x )";
         }
 

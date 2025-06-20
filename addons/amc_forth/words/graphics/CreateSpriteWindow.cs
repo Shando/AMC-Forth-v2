@@ -9,10 +9,10 @@ namespace Forth.Graphics
             : base(forth, wordset)
         {
             Name = "CREATESPRITEWINDOW";
-            Description = 
-                "Create a sub-window where sprites will be visible. 'x' and 'y' are the top left of the window, 'w' and 'h' are the width and the height."
-                + " NOTE: If a sprite window is not declared, then sprites will be visible in the entire window."
-                + " Example usage: 272 144 256 192 CREATESPRITEWINDOW";
+            Description =
+                "Create a sub-window where sprites will be visible. 'x' and 'y' are the top left of the window, 'w' and 'h' are the width and the height.<br/>"
+                + "NOTE: If a sprite window is not declared, then sprites will be visible in the entire window.<br/>"
+                + "Example usage: 272 144 256 192 CREATESPRITEWINDOW";
             StackEffect = "( x y w h -- )";
         }
 

@@ -11,9 +11,9 @@ namespace Forth.DuckDb
         {
             Name = "DUCKINT2REAL";
             Description =
-                "Converts an integer to a string based 'real' and stores it in the denoted string variable 'strvar'."
-                + " NOTE: 'strvar' is a string variable that must have already been declared using VAR$."
-                + " Example usage: int strvar DUCKINT2REAL";
+                "Converts an integer to a string based 'real' and stores it in the denoted string variable 'strvar'.<br/>"
+                + "NOTE: 'strvar' is a string variable that must have already been declared using VAR$.<br/>"
+                + "Example usage: int strvar DUCKINT2REAL";
             StackEffect = "( int var -- )";
         }
 

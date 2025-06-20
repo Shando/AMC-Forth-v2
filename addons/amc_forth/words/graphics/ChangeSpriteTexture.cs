@@ -9,9 +9,9 @@ namespace Forth.Graphics
             : base(forth, wordset)
         {
             Name = "CHANGESPRITETEXTURE";
-            Description = 
-                "Change the texture of the sprite denoted by its spriteid ('id') to the texture 'x', where x = 000, 001 etc.."
-                + " Example usage: 50 14 CHANGESPRITETEXTURE";
+            Description =
+                "Change the texture of the sprite denoted by its spriteid ('id') to the texture 'x', where x = 000, 001 etc..<br/>"
+                + "Example usage: 50 14 CHANGESPRITETEXTURE";
             StackEffect = "( id x -- )";
         }
 

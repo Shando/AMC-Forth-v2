@@ -9,8 +9,8 @@ namespace Forth.Shando
             : base(forth, wordset)
         {
             Name = "-HEAD";
-            Description = "Removes 'i' characters from the beginning of the string variable 'var$'."
-                + " Example usage: myVar 4 -HEAD.";
+            Description = "Removes 'i' characters from the beginning of the string variable 'var$'.<br/>"
+                + "Example usage: myVar 4 -HEAD.";
             StackEffect = "( var$ i -- )";
         }
 

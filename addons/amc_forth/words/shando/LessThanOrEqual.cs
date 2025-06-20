@@ -9,8 +9,8 @@ namespace Forth.Shando
             : base(forth, wordset)
         {
             Name = "<=";
-            Description = "Return 'TRUE' if and only if 'n1' is less than or equal to 'n2'."
-                + " Example usage: 5 10 <=";
+            Description = "Return 'TRUE' if and only if 'n1' is less than or equal to 'n2'.<br/>"
+                + "Example usage: 5 10 <=";
             StackEffect = "( n1 n2 -- flag )";
         }
 

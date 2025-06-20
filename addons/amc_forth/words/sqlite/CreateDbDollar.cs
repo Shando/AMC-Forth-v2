@@ -10,9 +10,9 @@ namespace Forth.SQLite
         {
             Name = "CREATEDB$";
             Description =
-                "Creates a database, 'db' (a string variable). Puts 'TRUE' or 'FALSE' on the stack, depending"
-                + " on the success of the operation, and leaves the database open."
-                + " Example usage: 4 VAR$ dbName S\" myDB\" dbName SET$ dbName CREATEDB$";
+                "Creates a database, 'db' (a string variable).<br/>"
+                + "NOTE: Puts 'TRUE' or 'FALSE' on the stack, depending on the success of the operation, and leaves the database open.<br/>"
+                + "Example usage: 4 VAR$ dbName S\" myDB\" dbName SET$ dbName CREATEDB$";
             StackEffect = "( db -- flag )";
         }
 

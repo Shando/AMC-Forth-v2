@@ -11,10 +11,10 @@ namespace Forth.DuckDb
         {
             Name = "DUCKDATECOMPARE$";
             Description =
-                "Compares two Dates, both of which must be string variables."
-                + " 'comp' is a string variable and can be one of '==', '<', '<=', '>', '>=' or '<>'."
-                + " NOTE: The comparison is as follows: date1 < date2."
-                + " Example usage: date1 date2 comp DUCKDATECOMPARE$";
+                "Compares two Dates, both of which must be string variables.<br/>"
+                + "NOTE: 'comp' is a string variable and can be one of '==', '<', '<=', '>', '>=' or '<>'.<br/>"
+                + "NOTE1: The comparison is as follows: date1 < date2.<br/>"
+                + "Example usage: date1 date2 comp DUCKDATECOMPARE$";
             StackEffect = "( date1 date2 comp -- flag )";
         }
 

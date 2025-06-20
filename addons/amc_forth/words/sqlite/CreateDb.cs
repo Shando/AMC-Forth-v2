@@ -10,10 +10,10 @@ namespace Forth.SQLite
         {
             Name = "CREATEDB";
             Description =
-                "Creates a database, 'db' (a string created using S\")."
-                + " Puts 'TRUE' or 'FALSE' on the stack depending on the success of the operation,"
-                + " and leaves the database open."
-                + " Example usage: S\" myDB\" CREATEDB";
+                "Creates a database, 'db' (a string created using S\").<br/>"
+                + "NOTE: Puts 'TRUE' or 'FALSE' on the stack depending on the success of the operation,"
+                + " and leaves the database open.<br/>"
+                + "Example usage: S\" myDB\" CREATEDB";
             StackEffect = "( db -- flag )";
         }
 

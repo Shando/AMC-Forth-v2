@@ -9,8 +9,8 @@ namespace Forth.Shando
             : base(forth, wordset)
         {
             Name = "3DUP";
-            Description = "Duplicate cell trio x1 x2 x3."
-                + " Example usage: 5 6 7 3DUP";
+            Description = "Duplicate cell trio x1 x2 x3.<br/>"
+                + "Example usage: 5 6 7 3DUP";
             StackEffect = "( x1 x2 x3 -- x1 x2 x3 x1 x2 x3 )";
         }
 

@@ -10,8 +10,8 @@ namespace Forth.Graphics
         {
             Name = "SETPIXEL";
             Description =
-                "Sets the pixel denoted by 'x', 'y' to the colour ('r', 'g', 'b', 'a')."
-                + " Example usage: 50 100 255 0 0 255 SETPIXEL";
+                "Sets the pixel denoted by 'x', 'y' to the colour ('r', 'g', 'b', 'a').<br/>"
+                + "Example usage: 50 100 255 0 0 255 SETPIXEL";
             StackEffect = "( x y r g b a -- )";
         }
 

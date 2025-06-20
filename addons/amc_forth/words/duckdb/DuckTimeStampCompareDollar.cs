@@ -11,11 +11,11 @@ namespace Forth.DuckDb
         {
             Name = "DUCKTIMESTAMPCOMPARE$";
             Description =
-                "Compares two Timestamps, both of which must be string variables and in the ISO format: YYYY-MM-DD hh:mm:ss."
-                + " NOTE: 'comp' is a string variable and can be one of '==', '<', '<=', '>', '>=' or '<>'."
-                + " NOTE1: The comparison is as follows: timestamp1 < timestamp2."
-                + " NOTE2: This ignores any microseconds and time zones."
-                + " Example usage: timestamp1 timestamp2 comp DUCKTIMESTAMPCOMPARE$";
+                "Compares two Timestamps, both of which must be string variables and in the ISO format: YYYY-MM-DD hh:mm:ss.<br/>"
+                + "NOTE: 'comp' is a string variable and can be one of '==', '<', '<=', '>', '>=' or '<>'.<br/>"
+                + "NOTE1: The comparison is as follows: timestamp1 < timestamp2.<br/>"
+                + "NOTE2: This ignores any microseconds and time zones.<br/>"
+                + "Example usage: timestamp1 timestamp2 comp DUCKTIMESTAMPCOMPARE$";
             StackEffect = "( timestamp1 timestamp2 comp -- flag )";
         }
 
