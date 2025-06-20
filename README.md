@@ -199,20 +199,20 @@ AMC Forth v2 is under the **MIT Licence** (https://opensource.org/license/mit).
 
 ## ACKNOWLEDGEMENTS
 
-AMC-Forth itself:
+AMC-Forth itself:\
 AMC-Forth by Eccentric-Anomalies is licenced under an MIT Licence (https://opensource.org/license/mit) - https://github.com/Eccentric-Anomalies/AMC-Forth
 
 
-Fonts:
-'G7StarForce' by GenShichi Yasui is Freeware - https://www.fontspace.com/g7-star-force-font-f5955
+Fonts:\
+'G7StarForce' by GenShichi Yasui is Freeware - https://www.fontspace.com/g7-star-force-font-f5955\
 'VT100 Regular' by Karl Stange is licenced under a Creative Commons Attribution license (http://creativecommons.org/licenses/by/3.0/) - https://fontstruct.com/fontstructions/show/232678
 
 
-Graphics:
+Graphics:\
 Frogger Graphics by GaryCXJk (garycxjkl@multiverseworks.com) - LICENCE UNKNOWN - https://excamera.com/sphinx/gameduino/tutorials/frogger1.html
 
 
-Godot Assets:
+Godot Assets:\
 'godot-duckdb' by mrjsj is licenced under an MIT Licence (https://opensource.org/license/mit) - https://github.com/mrjsj/godot-duckdb
 
 
