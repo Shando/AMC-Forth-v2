@@ -186,6 +186,136 @@ This implementation used **DuckDB** (https://duckdb.org/). Where there are two v
 **DUCKTIMESTAMPCOMPARE$** - Compares two Timestamps, both of which must be string variables and in the ISO format: YYYY-MM-DD hh:mm:ss.
 
 
+## FLOATING POINT - NEW 06/07/25 - NB: THESE WORDS HAVE NOT BEEN FULLY TESTED
+
+This also includes a class called DoubleExtensions that came from https://jonskeet.uk/csharp/DoubleConverter.cs to handle double -> string conversions.
+
+
+**DEG2RAD** - Converts the top value on the Floating Point stack from degrees to radians.
+
+**FABS** - Return the absolute value of the top item on the Floating Point stack.
+
+**FACOS** - Return the principal radian angle whose cosine is 'f'.
+
+**FACOSH** - Return the floating point value whose hyperbolic cosine value is 'f'.
+
+**FALOG** - Return 10 raised to the power of 'f'.
+
+**FASIN** - Return the principal radian angle whose sine is 'f'.
+
+**FASINH** - Return the floating point value whose hyperbolic sine value is 'f'.
+
+**FATAN** - Return the principal radian angle whose tangent is 'f'.
+
+**FATAN2** - Return the principal radian angle (between -PI and PI) whose tangent is 'f1' / 'f2'.
+
+**FATANH** - Return the floating point value whose hyperbolic tangent value is 'f'.
+
+**FCONSTANT** - Create a dictionary entry for 'name', associated with floating point constant 'f'. Executing 'name' places the value on the floating point stack.
+
+**FCOS** - Return the cosine of the radian angle 'f'.
+
+**FCOSH** - Return the hyperbolic cosine of the radian angle 'f'.
+
+**FDEPTH** - Return the number of values contained on the Floating Point stack onto the Data stack.
+
+**F.** - Display, in the console, the top number on the floating-point stack using fixed-point notation.
+
+**F.$** - Saves the top number on the floating-point stack to the denoted string variable 'var$' using fixed-point notation.
+
+**FDROP** - Removes the top value from the Floating Point stack.
+
+**FDUP** - Duplicates the top value on the Floating Point stack.
+
+**FE.** - Display, in the console, the top number on the floating-point stack using engineering notation.
+
+**FE.$** - Saves the top number on the floating-point stack to the denoted string variable 'var$' using engineering notation.
+
+**FEXP** - Return e raised to the power of 'f'.
+
+**FEXPM1** - Return e raised to the power of 'f', minus 1.
+
+**F@** - Get the contents of the cell at 'addr'.
+
+**FLOAT+** - Adds the size, in address units, of a floating point number to 'addr'.
+
+**FLOATS** - Return the size, in address units, of 'n' floating point numbers.
+
+**FFLOOR** - Return 'f' rounded to the nearest integral value using 'round toward negative infinity' rule.
+
+**F<** - Return TRUE if 'f1' is less than 'f2' else returns FALSE.
+
+**FLITERAL** - At execution time, remove the top floating point number from the Floating Point stack and compile into the current definition. Upon executing 'name', place the floating point number on the top of the Floating Point stack.
+
+**FLN** - Return the natural logarithm of 'f'.
+
+**FLNP1** - Return the natural logarithm of 'f' plus one.
+
+**FLOG** - Return the the base-ten logarithm of 'f'.
+
+**FMAX** - Return the greater of 'f1' and 'f2'.
+
+**FMIN** - Return the lesser of 'f1' and 'f2'.
+
+**F-** - Subtract 'f2' from 'f1' returning 'f3'.
+
+**FNEGATE** - Return 'f' * -1.
+
+**FOVER** - Place a copy of the 2nd item on the Floating Point stack on top of the Floating Point stack.
+
+**F+** - Add 'f2' to 'f1' returning 'f3'.
+
+**FROT** - Rotates the top 3 values on the floating-point stack.
+
+**FROUND** - Return 'f' rounded to the nearest integral value using 'round to nearest' rule.
+
+**FS.** - Display, in the console, the top number on the floating-point stack using scientific notation.
+
+**FS.$** - Saves the top number on the floating-point stack to the denoted string variable 'var$' using scientific notation.
+
+**FSIN** - Return the sine of the radian angle 'f'.
+
+**FSINCOS** - Return the sine and the cosine of the radian angle 'f'.
+
+**FSINH** - Return the hyperbolic sine of the radian angle 'f'.
+
+**F/** - Divide 'f1' by 'f2' returning the quotient 'f3'.
+
+**FSQRT** - Return the square root of 'f'.
+
+**F\*** - Multiply 'f1' by 'f2' returning the product 'f3'.
+
+**F\*\*** - Raise 'f1' to the power 'f2' returning the product 'f3'.
+
+**F!** - Store 'f' in the cell at 'addr'.
+
+**FSTORE$** - Populate the string variable 'var$' with the string representation of the Floating Point number stored on the top of the Floating Point stack.
+
+**FSWAP** - Swaps the top two values on the Floating Point stack.
+
+**FTAN** - Return the tangent of the radian angle 'f'.
+
+**FTANH** - Return the hyperbolic tangent of the radian angle 'f'.
+
+**F~** - If 'f3' is positive: Return TRUE if the absolute value of 'f1' - 'f2' is less than 'f3', else return FALSE. If 'f3' is 0: Return TRUE if the 'f1' and 'f2' are exactly equal, else return FALSE. If 'f3' is negative: Return TRUE if the absolute value of 'f1' - 'f2' is less than 'f3' multiplied by the sum of the absolute values of 'f1' and 'f2', else return FALSE.
+
+**FTOI** - Return the equivalent of the integer portion of 'f'.
+
+**FTRUNC** - Return 'f' rounded to the nearest integral value using 'round towards zero' rule.
+
+**FVARIABLE** - Create a definition for 'name' by reserving 1 FLOATS address units of data space at a float-aligned address. Executing 'name' returns the start address of the allocated cells.
+
+**F0=** - Return TRUE if 'f' is equal to 0.0 else return FALSE.
+
+**F0<** - Return TRUE if 'f' is less than 0 else return FALSE.
+
+**PRECISION** - Return the number of significant digits currently used by F., F.$, FE., FE.$, FS. or FS.$ to n.
+
+**RAD2DEG** - Converts the top value on the Floating Point stack from radians to degrees.
+
+**SET-PRECISION** - Set the number of significant digits currently used by F., F.$, FE., FE.$, FS. or FS.$ to n.
+
+
 ## FROGGER
 
 To show the Graphics in action, I have created an almost-working Frogger (copyright KONAMI 1981) clone (yes, there are a few things that don't work properly, but, unfortunately, I don't have time to fix them!').

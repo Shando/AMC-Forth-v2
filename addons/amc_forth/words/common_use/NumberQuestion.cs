@@ -24,25 +24,39 @@ namespace Forth.CommonUse
             var caddr = Stack.Pop();
             // start of word
             var t = Forth.Util.StrFromAddrN(caddr, len);
+            var fl = false;
 
-            if (t.Contains(".") && Util.IsValidLong(t.Replace(".", ""), radix))
+            if (radix == 10)
             {
-                var t_strip = t.Replace(".", "");
-                var temp = Util.ToLong(t_strip, radix);
-                Stack.PushDint(temp);
-                Stack.Push(2);
+                if (t.Contains('.') && t.IsValidFloat())
+                {
+                    Stack.FPPush(t.ToFloat());
+                    Stack.Push(3);
+                    fl = true;
+                }
             }
-            else if (Util.IsValidInt(t, radix))
-            {
-                var temp = Util.ToInt(t, radix);
 
-                // single-precision
-                Stack.Push(temp);
-                Stack.Push(1);
-            }
-            else // nothing we recognize
+            if (!fl)
             {
-                Stack.Push(0);
+                if (t.Contains(".") && Util.IsValidLong(t.Replace(".", ""), radix))
+                {
+                    var t_strip = t.Replace(".", "");
+                    var temp = Util.ToLong(t_strip, radix);
+                    Stack.PushDint(temp);
+                    Stack.Push(2);
+                }
+                else if (Util.IsValidInt(t, radix))
+                {
+                    var temp = Util.ToInt(t, radix);
+
+                    // single-precision
+                    Stack.Push(temp);
+                    Stack.Push(1);
+                }
+                else // nothing we recognize
+                {
+                    Stack.Push(0);
+                }
             }
         }
     }

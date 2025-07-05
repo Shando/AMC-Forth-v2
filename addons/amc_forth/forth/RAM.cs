@@ -161,6 +161,29 @@ namespace Forth
             return Combine64(GetInt(addr), GetInt(addr + sizeof(int)));
         }
 
+        // floating point values
+        public void SetFP(int addr, float val)
+        {
+            byte[] byteArray = BitConverter.GetBytes(val);
+
+            for (int i = 0; i < byteArray.Length; i++)
+            {
+                SetInt(addr + i, (int)byteArray[i]);
+            }
+        }
+
+        public float GetFP(int addr)
+        {
+            byte[] byteArray = new byte[4];
+
+            for (int i = 0; i < 4; i++)
+            {
+                byteArray[i] = (byte)GetInt(addr + i);
+            }
+
+            return BitConverter.ToSingle(byteArray, 0);
+        }
+
         // unsigned double-precision values
         public void SetDword(int addr, ulong val)
         {

@@ -10,8 +10,7 @@ namespace Forth.Core
         {
             Name = "BASE";
             Description =
-                "Return a-addr, the address of a cell containing the current number "
-                + "conversion radix, between 2 and 36 inclusive.";
+                "Return a-addr, the address of a cell containing the current number conversion radix, between 2 and 36 inclusive.";
             StackEffect = "( -- a-addr )";
         }
 

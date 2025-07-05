@@ -447,6 +447,131 @@
 
 ### <a name="Include"></a>[INCLUDE](Include.md)
 
+## FLOATING POINT
+### <a name="Deg2Rad"></a>[DEG2RAD](Deg2Rad.md)
+
+### <a name="FMinus"></a>[F-](FMinus.md)
+
+### <a name="FStore"></a>[F!](FStore.md)
+
+### <a name="FDot"></a>[F.](FDot.md)
+
+### <a name="FDotDollar"></a>[F.$](FDotDollar.md)
+
+### <a name="FFetch"></a>[F@](FFetch.md)
+
+### <a name="FStar"></a>[F*](FStar.md)
+
+### <a name="FStarStar"></a>[F**](FStarStar.md)
+
+### <a name="FSlash"></a>[F/](FSlash.md)
+
+### <a name="FPlus"></a>[F+](FPlus.md)
+
+### <a name="FLess"></a>[F&lt;](FLess.md)
+
+### <a name="FToI"></a>[F&gt;I](FToI.md)
+
+### <a name="FTilde"></a>[F~](FTilde.md)
+
+### <a name="FZeroLess"></a>[F0&lt;](FZeroLess.md)
+
+### <a name="FZeroEquals"></a>[F0=](FZeroEquals.md)
+
+### <a name="FABS"></a>[FABS](FABS.md)
+
+### <a name="FACOS"></a>[FACOS](FACOS.md)
+
+### <a name="FACOSH"></a>[FACOSH](FACOSH.md)
+
+### <a name="FALOG"></a>[FALOG](FALOG.md)
+
+### <a name="FASIN"></a>[FASIN](FASIN.md)
+
+### <a name="FASINH"></a>[FASINH](FASINH.md)
+
+### <a name="FATAN"></a>[FATAN](FATAN.md)
+
+### <a name="FATAN2"></a>[FATAN2](FATAN2.md)
+
+### <a name="FATANH"></a>[FATANH](FATANH.md)
+
+### <a name="FConstant"></a>[FCONSTANT](FConstant.md)
+
+### <a name="FCOS"></a>[FCOS](FCOS.md)
+
+### <a name="FCOSH"></a>[FCOSH](FCOSH.md)
+
+### <a name="FDepth"></a>[FDEPTH](FDepth.md)
+
+### <a name="FDrop"></a>[FDROP](FDrop.md)
+
+### <a name="FDup"></a>[FDUP](FDup.md)
+
+### <a name="FEDot"></a>[FE.](FEDot.md)
+
+### <a name="FEDotDollar"></a>[FE.$](FEDotDollar.md)
+
+### <a name="FEXP"></a>[FEXP](FEXP.md)
+
+### <a name="FEXPM1"></a>[FEXPM1](FEXPM1.md)
+
+### <a name="FFLOOR"></a>[FFLOOR](FFLOOR.md)
+
+### <a name="FLiteral"></a>[FLITERAL](FLiteral.md)
+
+### <a name="FLN"></a>[FLN](FLN.md)
+
+### <a name="FLNP1"></a>[FLNP1](FLNP1.md)
+
+### <a name="FFloatPlus"></a>[FLOAT+](FFloatPlus.md)
+
+### <a name="FFloatS"></a>[FLOATS](FFloatS.md)
+
+### <a name="FLOG"></a>[FLOG](FLOG.md)
+
+### <a name="FMAX"></a>[FMAX](FMAX.md)
+
+### <a name="FMIN"></a>[FMIN](FMIN.md)
+
+### <a name="FNegate"></a>[FNEGATE](FNegate.md)
+
+### <a name="FOver"></a>[FOVER](FOver.md)
+
+### <a name="FRot"></a>[FROT](FRot.md)
+
+### <a name="FROUND"></a>[FROUND](FROUND.md)
+
+### <a name="FSDot"></a>[FS.](FSDot.md)
+
+### <a name="FSDotDollar"></a>[FS.$](FSDotDollar.md)
+
+### <a name="FSIN"></a>[FSIN](FSIN.md)
+
+### <a name="FSINCOS"></a>[FSINCOS](FSINCOS.md)
+
+### <a name="FSINH"></a>[FSINH](FSINH.md)
+
+### <a name="FSQRT"></a>[FSQRT](FSQRT.md)
+
+### <a name="FStoreDollar"></a>[FSTORE$](FStoreDollar.md)
+
+### <a name="FSwap"></a>[FSWAP](FSwap.md)
+
+### <a name="FTAN"></a>[FTAN](FTAN.md)
+
+### <a name="FTANH"></a>[FTANH](FTANH.md)
+
+### <a name="FTRUNC"></a>[FTRUNC](FTRUNC.md)
+
+### <a name="FVariable"></a>[FVARIABLE](FVariable.md)
+
+### <a name="Precision"></a>[PRECISION](Precision.md)
+
+### <a name="Rad2Deg"></a>[RAD2DEG](Rad2Deg.md)
+
+### <a name="SetDashPrecision"></a>[SET-PRECISION](SetDashPrecision.md)
+
 ## GRAPHICS
 ### <a name="AtXYG"></a>[AT-XYG](AtXYG.md)
 

@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Forth;
+using Forth.FloatingPoint;
 using Godot;
 using Godot.Collections;
 using static AMCForth;
@@ -104,6 +105,7 @@ public partial class AMCForth : RefCounted
 	public Forth.Facility.FacilitySet FacilityWords;
 	public Forth.File.FileSet FileWords;
 	public Forth.FileExt.FileExtSet FileExtWords;
+	public Forth.FloatingPoint.FloatingPointSet FloatingPointWords;
 	public Forth.Graphics.GraphicsSet GraphicsWords;
 	public Forth.Shando.ShandoSet ShandoWords;
 	public Forth.Sound.SoundSet SoundWords;
@@ -137,6 +139,9 @@ public partial class AMCForth : RefCounted
 
 	// Forth : exit flag (true if exit has been called)
 	public bool ExitFlag = false;
+
+	// Floating Point Precision
+	public int precision = 6;
 
 	// Structure of an output port signal (owner, event name)
 	public readonly struct OutputPortSignal
@@ -1027,6 +1032,7 @@ public partial class AMCForth : RefCounted
 		FacilityWords = new(this);
 		FileWords = new(this);
 		FileExtWords = new(this);
+		FloatingPointWords = new(this);
 		StringWords = new(this);
 		ToolsWords = new(this);
 		ToolsExtWords = new(this);

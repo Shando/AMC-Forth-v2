@@ -10,12 +10,19 @@ namespace Forth
         public const int DataStackTop = DataStackSize - 1;
         
         public const int ReturnStackSize = 1000;
+
+        public const int FPStackSize = 1000;
+
         public int[] DataStack = new int[DataStackSize];
         public int DsP;
 
         // Forth: return stack
         public int[] ReturnStack = new int[ReturnStackSize];
         public int RsP;
+
+        // Forth: Float Stack
+        public float[] FPStack = new float[FPStackSize];
+        public int FPsP;
 
         //# Create with a reference to AMCForth
         protected AMCForth Forth;
@@ -27,6 +34,8 @@ namespace Forth
             DsP = DataStackSize;
             // Initialize the return stack pointer
             RsP = ReturnStackSize;
+            // Initialize the FP stack pointer
+            FPsP = FPStackSize;
         }
 
         // Forth Data Stack Push and Pop Routines
@@ -89,6 +98,24 @@ namespace Forth
             }
 
             Forth.Util.RprintError(" Return stack underflow");
+            return 0;
+        }
+
+        public void FPPush(float val)
+        {
+            FPsP -= 1;
+            FPStack[FPsP] = val;
+        }
+
+        public float FPPop()
+        {
+            if (FPsP < FPStackSize)
+            {
+                FPsP += 1;
+                return FPStack[FPsP - 1];
+            }
+
+            Forth.Util.RprintError(" Floating point stack underflow");
             return 0;
         }
 

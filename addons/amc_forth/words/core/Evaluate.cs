@@ -11,8 +11,8 @@ namespace Forth.Core
         {
             Name = "EVALUATE";
             Description =
-                "Evaluate Forth code from SOURCE buffer. Unlike Standard Forth, EVALUATE is for AMCForth internal"
-                + " use only and may not be called from user code.";
+                "Evaluate Forth code from SOURCE buffer. Unlike Standard Forth, EVALUATE is for AMCForth internal use only"
+                + " and may not be called from user code.";
             StackEffect = "( -- )";
         }
 
@@ -76,7 +76,7 @@ namespace Forth.Core
                         Forth.CoreWords.Execute.Call();
                     }
                 }
-                else // no valid token, so maybe valid numeric value (double first)
+                else // no valid token, so maybe valid numeric value (Float [double] first)
                 {
                     // check for a number
                     Stack.Push(caddr);
@@ -84,7 +84,11 @@ namespace Forth.Core
                     Forth.CommonUseWords.NumberQuestion.Call();
                     var type = Stack.Pop();
 
-                    if (type == 2 && Forth.State)
+                    if (type == 3 && Forth.State)
+                    {
+                         Forth.FloatingPointWords.FLiteral.Call();
+                    }
+                    else if (type == 2 && Forth.State)
                     {
                         Forth.DoubleWords.TwoLiteral.Call();
                     }
