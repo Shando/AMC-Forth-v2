@@ -508,6 +508,8 @@
 
 ### <a name="FDup"></a>[FDUP](FDup.md)
 
+### <a name="FE"></a>[FE](FE.md)
+
 ### <a name="FEDot"></a>[FE.](FEDot.md)
 
 ### <a name="FEDotDollar"></a>[FE.$](FEDotDollar.md)
@@ -538,6 +540,8 @@
 
 ### <a name="FOver"></a>[FOVER](FOver.md)
 
+### <a name="FPI"></a>[FPI](FPI.md)
+
 ### <a name="FRot"></a>[FROT](FRot.md)
 
 ### <a name="FROUND"></a>[FROUND](FROUND.md)
@@ -561,6 +565,8 @@
 ### <a name="FTAN"></a>[FTAN](FTAN.md)
 
 ### <a name="FTANH"></a>[FTANH](FTANH.md)
+
+### <a name="FTau"></a>[FTAU](FTau.md)
 
 ### <a name="FTRUNC"></a>[FTRUNC](FTRUNC.md)
 

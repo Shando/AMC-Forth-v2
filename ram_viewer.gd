@@ -4,12 +4,10 @@ extends AcceptDialog
 @onready var curPage = $PanelContainer/PanelContainer2/HBoxContainer/VBoxContainer/PanelContainer2/HBoxContainer2/SpinBox
 @onready var lblBytes = $PanelContainer/PanelContainer2/HBoxContainer/VBoxContainer/PanelContainer2/HBoxContainer2/Label2
 
-@onready var rsp = $PanelContainer/PanelContainer2/HBoxContainer/VBoxContainer2/PanelContainer5/VBoxContainer/PanelContainer3/MarginContainer/RetViewer
 @onready var psp = $PanelContainer/PanelContainer2/HBoxContainer/VBoxContainer2/PanelContainer4/VBoxContainer/PanelContainer2/MarginContainer/ParamViewer
 
 @onready var topDict = $PanelContainer/PanelContainer2/HBoxContainer/VBoxContainer/PanelContainer3/VBoxContainer/Label2
 @onready var dsPointer = $PanelContainer/PanelContainer2/HBoxContainer/VBoxContainer2/PanelContainer4/VBoxContainer/Label2
-@onready var rsPointer = $PanelContainer/PanelContainer2/HBoxContainer/VBoxContainer2/PanelContainer5/VBoxContainer/Label2
 
 var data = []
 
@@ -17,7 +15,6 @@ func _ready():
 	curPage.value = 0
 	loadData()
 	loadParam()
-	loadReturn()
 
 func loadData():
 	var ds = Common.forth.Ram._Ram
@@ -241,9 +238,27 @@ func loadReturn():
 		tText += " - " + sT2 + "  " + sTmp + "\n"
 
 	tText = tText.strip_edges()
-	rsp.text = tText
+	psp.text = tText
 	tText = "%x" % Common.forth.Stack.RsP
-	rsPointer.text = "Current Return Stack Pointer: " + tText.to_upper() + "H"
+	dsPointer.text = "Current Return Stack Pointer: " + tText.to_upper() + "H"
+
+func loadFP():
+	var fp = Common.forth.Stack.FPStack
+	var tText = ""
+
+	for i in range(0, fp.size(), 2):
+		var sTmp = ""
+
+		var sT1 = "%12.6f" % fp[i]
+		var sT2 = "%12.6f" % fp[i + 1]
+
+		tText += str(int_to_hex(i)).pad_zeros(6) + ": " + sT1 
+		tText += " - " + sT2 + "  " + sTmp + "\n"
+
+	tText = tText.strip_edges()
+	psp.text = tText
+	tText = "%x" % Common.forth.Stack.FPsP
+	dsPointer.text = "Current Floating Point Stack Pointer: " + tText.to_upper() + "H"
 
 func _on_confirmed() -> void:
 	var main = get_tree().get_root().get_node("Control")
@@ -255,3 +270,11 @@ func _on_canceled() -> void:
 
 func _on_spin_box_value_changed(_value: float) -> void:
 	loadData()
+
+func _on_stack_selector_item_selected(index: int) -> void:
+	if index == 0:
+		loadParam()
+	elif index == 1:
+		loadReturn()
+	else:
+		loadFP()

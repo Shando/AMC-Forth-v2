@@ -6,6 +6,7 @@
 
 [node name="Control" type="AcceptDialog"]
 canvas_item_default_texture_filter = 3
+oversampling_override = 1.0
 title = "RAM and Stack Viewer"
 initial_position = 1
 size = Vector2i(1200, 810)
@@ -119,11 +120,17 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
-[node name="Label" type="Label" parent="PanelContainer/PanelContainer2/HBoxContainer/VBoxContainer2/PanelContainer4/VBoxContainer"]
+[node name="StackSelector" type="OptionButton" parent="PanelContainer/PanelContainer2/HBoxContainer/VBoxContainer2/PanelContainer4/VBoxContainer"]
 layout_mode = 2
 theme_override_colors/font_color = Color(0, 1, 1, 1)
-text = "Data Stack"
-horizontal_alignment = 1
+selected = 0
+item_count = 3
+popup/item_0/text = "Data Stack"
+popup/item_0/id = 0
+popup/item_1/text = "Return Stack"
+popup/item_1/id = 1
+popup/item_2/text = "Floating Point Stack"
+popup/item_2/id = 2
 
 [node name="PanelContainer2" type="ScrollContainer" parent="PanelContainer/PanelContainer2/HBoxContainer/VBoxContainer2/PanelContainer4/VBoxContainer"]
 layout_mode = 2
@@ -155,52 +162,7 @@ layout_mode = 2
 text = "Current Data Stack Pointer: 0100H"
 horizontal_alignment = 1
 
-[node name="PanelContainer5" type="PanelContainer" parent="PanelContainer/PanelContainer2/HBoxContainer/VBoxContainer2"]
-layout_mode = 2
-size_flags_horizontal = 3
-size_flags_vertical = 3
-
-[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer/PanelContainer2/HBoxContainer/VBoxContainer2/PanelContainer5"]
-layout_mode = 2
-size_flags_horizontal = 3
-size_flags_vertical = 3
-
-[node name="Label" type="Label" parent="PanelContainer/PanelContainer2/HBoxContainer/VBoxContainer2/PanelContainer5/VBoxContainer"]
-layout_mode = 2
-theme_override_colors/font_color = Color(0, 1, 1, 1)
-text = "Return Stack"
-horizontal_alignment = 1
-
-[node name="PanelContainer3" type="ScrollContainer" parent="PanelContainer/PanelContainer2/HBoxContainer/VBoxContainer2/PanelContainer5/VBoxContainer"]
-layout_mode = 2
-size_flags_vertical = 3
-
-[node name="MarginContainer" type="MarginContainer" parent="PanelContainer/PanelContainer2/HBoxContainer/VBoxContainer2/PanelContainer5/VBoxContainer/PanelContainer3"]
-layout_mode = 2
-size_flags_horizontal = 3
-size_flags_vertical = 3
-theme_override_constants/margin_left = 30
-theme_override_constants/margin_top = 10
-theme_override_constants/margin_right = 10
-theme_override_constants/margin_bottom = 10
-
-[node name="RetViewer" type="RichTextLabel" parent="PanelContainer/PanelContainer2/HBoxContainer/VBoxContainer2/PanelContainer5/VBoxContainer/PanelContainer3/MarginContainer"]
-layout_mode = 2
-theme_override_fonts/normal_font = ExtResource("3_6qvi0")
-theme_override_font_sizes/normal_font_size = 18
-text = "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00123
-"
-fit_content = true
-
-[node name="HSeparator" type="HSeparator" parent="PanelContainer/PanelContainer2/HBoxContainer/VBoxContainer2/PanelContainer5/VBoxContainer"]
-layout_mode = 2
-theme_override_constants/separation = 10
-
-[node name="Label2" type="Label" parent="PanelContainer/PanelContainer2/HBoxContainer/VBoxContainer2/PanelContainer5/VBoxContainer"]
-layout_mode = 2
-text = "Current Return Stack Pointer: 0100H"
-horizontal_alignment = 1
-
 [connection signal="canceled" from="." to="." method="_on_canceled"]
 [connection signal="confirmed" from="." to="." method="_on_confirmed"]
 [connection signal="value_changed" from="PanelContainer/PanelContainer2/HBoxContainer/VBoxContainer/PanelContainer2/HBoxContainer2/SpinBox" to="." method="_on_spin_box_value_changed"]
+[connection signal="item_selected" from="PanelContainer/PanelContainer2/HBoxContainer/VBoxContainer2/PanelContainer4/VBoxContainer/StackSelector" to="." method="_on_stack_selector_item_selected"]

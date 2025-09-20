@@ -26,6 +26,7 @@ namespace Forth.FloatingPoint
         public FDotDollar FDotDollar;
         public FDrop FDrop;
         public FDup FDup;
+        public FE FE;
         public FEDot FEDot;
         public FEDotDollar FEDotDollar;
         public FEXP FEXP;
@@ -44,6 +45,7 @@ namespace Forth.FloatingPoint
         public FMinus FMinus;
         public FNegate FNegate;
         public FOver FOver;
+        public FPI FPI;
         public FPlus FPlus;
         public FRot FRot;
         public FROUND FROUND;
@@ -61,6 +63,7 @@ namespace Forth.FloatingPoint
         public FSwap FSwap;
         public FTAN FTAN;
         public FTANH FTANH;
+        public FTau FTau;
         public FTilde FTilde;
         public FToI FToI;
         public FTRUNC FTRUNC;
@@ -95,6 +98,7 @@ namespace Forth.FloatingPoint
             FDotDollar = new(_forth, Wordset);
             FDrop = new(_forth, Wordset);
             FDup = new(_forth, Wordset);
+            FE = new(_forth, Wordset);
             FEDot = new(_forth, Wordset);
             FEDotDollar = new(_forth, Wordset);
             FEXP = new(_forth, Wordset);
@@ -113,6 +117,7 @@ namespace Forth.FloatingPoint
             FMinus = new(_forth, Wordset);
             FNegate = new(_forth, Wordset);
             FOver = new(_forth, Wordset);
+            FPI = new(_forth, Wordset);
             FPlus = new(_forth, Wordset);
             FRot = new(_forth, Wordset);
             FROUND = new(_forth, Wordset);
@@ -130,6 +135,7 @@ namespace Forth.FloatingPoint
             FSwap = new(_forth, Wordset);
             FTAN = new(_forth, Wordset);
             FTANH = new(_forth, Wordset);
+            FTau = new(_forth, Wordset);
             FTilde = new(_forth, Wordset);
             FToI = new(_forth, Wordset);
             FTRUNC = new(_forth, Wordset);
